@@ -11,7 +11,7 @@
 #### in preparation:
 # label contour lines
 
-section.DK2 <- function(
+section.DK <- function(
   longitude, # vector of latitude in degrees north
   latitude, # vector of longitude in degrees east
   parameter, # verctor of values of parameter z to be plotted as color. accepts NAs but all Lon-Lat-Depth-Parameter combinations with parameters NA will be removed
