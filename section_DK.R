@@ -159,22 +159,3 @@ section.DK <- function(
                   c("plot", "output", "profile", "input")))
   
 }
-
-#### example ####
-df <- read.delim("D:/ARBEIT/MEGAPOL_SOCLIS/data_Haiyang4/mid_section_sal.txt", header = TRUE, sep = "\t")
-plot <- section.DK(longitude = df$longitude,
-           latitude = df$latitude,
-           parameter = df$parameter,
-           depth = df$depth,
-           #section.x = "degN",
-           #section.direction = "N",
-           #xy.ratio = c(1,4),
-           #contour.breaks = 0,
-           bathymetry = bathymetry,
-           max.depth = "profile"
-)$plot
-plot +
-  guides(fill=guide_colorbar("salinty")) +
-  coord_cartesian(xlim = c(0,300), ylim = c(0,300))
-
-rm(p1, df)
