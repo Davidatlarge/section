@@ -5,7 +5,7 @@
 # requires selection of a dominant section orientation towards N, E, S or W
 # requires the following packages to be installed: "sp", "marmap", "reshape2", "MBA", and "ggplot2"
 # value is a list containing a ggplot of the sections with interpolated data and bathymetry profile
-#  and three data frames containig the interpolated data, the bathymetry profile, and the input data with section distance [km] added, respectively.
+#  and three data frames containing the interpolated data, the bathymetry profile, and the input data with section distance [km] added, respectively.
 #  The list objects are named "plot", "output", "profile", and "input", respectively.
 # created by David Kaiser; david.kaiser.82@gmail.com
 #### in preparation:
