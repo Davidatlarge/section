@@ -3,7 +3,7 @@ title: "Section example"
 author: "David Kaiser; david.kaiser.82@gmail.com"
 output:
   html_document:
-    df_print: paged
+    keep_md: yes
 ---
 
 Function to draw a section of interpolated data along a transect
