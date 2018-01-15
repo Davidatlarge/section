@@ -41,7 +41,7 @@ example.results <- section.DK(longitude = 15:20,
 example.results$plot
 ```
 
-![](example_files/figure-html/plot-1.png)<!-- -->
+![](README_files/figure-html/plot-1.png)<!-- -->
 
 ## Tables
 
