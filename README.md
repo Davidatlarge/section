@@ -1,10 +1,5 @@
----
-title: "Section example"
-author: "David Kaiser"
-output: 
-  html_document: 
-    keep_md: yes
----
+# Section example
+David Kaiser  
 
 Function to draw a section of interpolated data along a transect
 
