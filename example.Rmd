@@ -1,7 +1,9 @@
 ---
 title: "Section example"
 author: "David Kaiser; david.kaiser.82@gmail.com"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 Function to draw a section of interpolated data along a transect
@@ -19,8 +21,19 @@ source("section_DK.R")
 ```
 
 ```{r}
-section.DK(longitude = 15:20, latitude = 50:55,
-           parameter = 13:18, depth = 0:5)
+example.results <- section.DK(longitude = 15:20,
+                              latitude = 50:55,
+                              parameter = 13:18,
+                              depth = 0:5)
+
+example.results$plot
+
+head(example.results$input)
+
+head(example.results$output)
+
+head(example.results$profile)
+
 ```
 
 ## ToDo:
