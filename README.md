@@ -1,8 +1,8 @@
 ---
 title: "Section example"
 author: "David Kaiser"
-output:
-  html_document:
+output: 
+  html_document: 
     keep_md: yes
 ---
 
