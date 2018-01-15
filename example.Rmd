@@ -8,7 +8,7 @@ output:
 
 Function to draw a section of interpolated data along a transect
 
- + accepts vectors of corresponding lon, lat, depth, and data values
+ + requires vectors of corresponding lon, lat, depth, and data values
  + accepts the input of bathymetry data as class "bathy", or creates bathymetry
  + requires selection of distance, longitude or latitude as x values
  + requires selection of a dominant section orientation towards N, E, S or W
@@ -16,26 +16,40 @@ Function to draw a section of interpolated data along a transect
  + value is a list containing a ggplot of the sections with interpolated data and bathymetry profile and three data frames containing the interpolated data, the bathymetry profile, and the input data with section distance [km] added, respectively.
   The list objects are named "plot", "output", "profile", and "input", respectively.
 
-```{r}
+```{r include=FALSE}
 source("section_DK.R")
 ```
 
-```{r}
+
+```{r, minimalExampleRun, message=FALSE, warning=FALSE}
 example.results <- section.DK(longitude = 15:20,
                               latitude = 50:55,
                               parameter = 13:18,
-                              depth = 0:5)
+                              depth = c(0, 100, 300, 500, 700, 1000))
 
+# FIXME: Why do input vectors must have same lengths??
+
+```
+
+# Output
+
+## Plot
+
+```{r, plot}
 example.results$plot
+```
 
+## Tables
+
+```{r}
 head(example.results$input)
 
 head(example.results$output)
 
 head(example.results$profile)
-
 ```
 
-## ToDo:
+
+# ToDo:
 
  + labeled contour lines (not provided by ggplot geom_contour function, available workaround 'directlabels' does not help)
