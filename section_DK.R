@@ -14,11 +14,11 @@
 section.DK <- function(
   longitude, # vector of latitude in degrees north
   latitude, # vector of longitude in degrees east
-  parameter, # verctor of values of parameter z to be plotted as color. accepts NAs but all Lon-Lat-Depth-Parameter combinations with parameters NA will be removed
+  parameter, # vector of values of parameter z to be plotted as color. accepts NAs but all Lon-Lat-Depth-Parameter combinations with parameters NA will be removed
   depth, # vector of depth values in m, negative numbers are accepted but will be converted to positives
-  xy.ratio = NULL, # optional integer vector of length 2 in which first and second integers indicate the relative strength of interpolation in x and y direction, defaults to NULL and calculates the requred values according to mean depth resolution and distance between stations
+  xy.ratio = NULL, # optional integer vector of length 2 in which first and second integers indicate the relative strength of interpolation in x and y direction, defaults to NULL and calculates the required values according to mean depth resolution and distance between stations
   section.x = "km", # unit for x axis of the section. Options are "km" (the default), "degE", and "degN".
-  section.direction = NA, # optional sorting of data by stations along a dominant direction. Options are "N", "E", "S", and "W", e.g. "S" creates a section running from north to south. Only really important if section.x = "km". If nothing is input, data verctors will not be resorted
+  section.direction = NA, # optional sorting of data by stations along a dominant direction. Options are "N", "E", "S", and "W", e.g. "S" creates a section running from north to south. Only really important if section.x = "km". If nothing is input, data vectors will not be resorted
   bathymetry = NULL, # optional bathymetry of class "bathy", if not supplied will be retrieved from NOAA for the domain of "longitude" and "latitude"
   max.depth = "profile", # select the section's maximum depth in bathymetry ("profile", the default) or in data ("data") as the maximum depth of the plot
   contour.breaks = 5 # either an integer defining the number of contour bins (defaults arbitrarily to 5), or a vector of values for the contour lines. To draw no contours "0" works but prints an error, NA does not work, NULL reverts to geom_stat default.
