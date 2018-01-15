@@ -24,11 +24,11 @@ section.DK <- function(
   contour.breaks = 5 # either an integer defining the number of contour bins (defaults arbitrarily to 5), or a vector of values for the contour lines. To draw no contours "0" works but prints an error, NA does not work, NULL reverts to geom_stat default.
 )
 {
-  require(sp)
-  require(marmap)
-  require(reshape2)
-  require(MBA)
-  require(ggplot2)
+  library(sp)
+  library(marmap)
+  library(reshape2)
+  library(MBA)
+  library(ggplot2)
   
   #### data prep
   data <- data.frame(longitude, 
