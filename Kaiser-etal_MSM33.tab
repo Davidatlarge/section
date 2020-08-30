@@ -1,0 +1,787 @@
+/* DATA DESCRIPTION:
+Citation:	Kaiser, David; Konovalov, Sergey K; Arz, Helge Wolfgang; Voss, Maren; Krüger, Siegfried; Pollehne, Falk; Jeschek, Jenny; Waniek, Joanna J (2019): Black Sea water column dissolved nutrients and dissolved and particulate organic matter from winter 2013, Maria S. Merian cruise MSM33. PANGAEA, https://doi.org/10.1594/PANGAEA.898717, 
+	Supplement to: Kaiser, David; Konovalov, Sergey K; Schulz-Bull, Detlef; Waniek, Joanna J (2017): Organic matter along longitudinal and vertical gradients in the Black Sea. Deep Sea Research Part I: Oceanographic Research Papers, 129, 22-31, https://doi.org/10.1016/j.dsr.2017.09.006
+Abstract:	Dissolved nutrients (NO3, NO3, NH4, PO4, Si, H2S) and dissolved and particulate oganic matter (DOC, TDN, CHLa, SPM, POC, PN, d13C) were measured on bottle samples obtained during CTD casts along transects in the NE, central and NW Black Sea during RV Maria S. Merian cruise MSM33 in November and December 2013. Dissolved oxygen and salinity and temperature data for the bottla samples were added to the dataset. Metadata are UTC of the start time of the casts, longitude and latitude, and depth.
+Keyword(s):	Black Sea; bottle; CHLa; d13C; DOC; H2S; Maria S. Merian; NH4; NO3; NO3; nutrients; organic matter; Oxygen; PN; PO4; POC; Salinity; Si; SPM; TDN; Temperature
+Coverage:	MEDIAN LATITUDE: 44.011249 * MEDIAN LONGITUDE: 33.981157 * SOUTH-BOUND LATITUDE: 43.529900 * WEST-BOUND LONGITUDE: 31.140300 * NORTH-BOUND LATITUDE: 45.030220 * EAST-BOUND LONGITUDE: 36.457100
+	DATE/TIME START: 2013-11-11T17:35:06 * DATE/TIME END: 2013-11-30T16:42:18
+	MINIMUM DEPTH, water: 1.50 m * MAXIMUM DEPTH, water: 2156.00 m
+Event(s):	MSM33_713-1 (26-1) * LATITUDE: 45.030100 * LONGITUDE: 31.140250 * DATE/TIME: 2013-11-11T17:41:00 * ELEVATION: -55.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-1
+	MSM33_716-1 (27-1) * LATITUDE: 44.685000 * LONGITUDE: 31.466683 * DATE/TIME: 2013-11-11T20:57:00 * ELEVATION: -244.4 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-3
+	MSM33_717-1 (27-2) * LATITUDE: 44.684983 * LONGITUDE: 31.466683 * DATE/TIME: 2013-11-11T23:32:00 * ELEVATION: -243.4 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P1-3
+	MSM33_718-1 (27-3) * LATITUDE: 44.685000 * LONGITUDE: 31.466683 * DATE/TIME: 2013-11-12T00:42:00 * ELEVATION: -240.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-3
+	MSM33_720-1 (27a-1) * LATITUDE: 44.697000 * LONGITUDE: 31.456500 * DATE/TIME: 2013-11-12T04:00:00 * ELEVATION: -153.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO)
+	MSM33_722-1 (28-2) * LATITUDE: 44.749767 * LONGITUDE: 31.404133 * DATE/TIME: 2013-11-12T06:58:00 * ELEVATION: -72.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-2
+	MSM33_728-1 (29-6) * LATITUDE: 44.578800 * LONGITUDE: 31.554350 * DATE/TIME: 2013-11-12T15:13:00 * ELEVATION: -898.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-4
+	MSM33_729-1 (29-7) * LATITUDE: 44.578783 * LONGITUDE: 31.554350 * DATE/TIME: 2013-11-12T17:11:00 * ELEVATION: -827.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P1-4
+	MSM33_731-1 (29-9) * LATITUDE: 44.578817 * LONGITUDE: 31.554300 * DATE/TIME: 2013-11-13T01:56:00 * ELEVATION: -824.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-4
+	MSM33_735-1 (30-1) * LATITUDE: 44.279217 * LONGITUDE: 31.829300 * DATE/TIME: 2013-11-13T08:50:00 * ELEVATION: -1288.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-5
+	MSM33_736-1 (30-2) * LATITUDE: 44.279200 * LONGITUDE: 31.829300 * DATE/TIME: 2013-11-13T10:52:00 * ELEVATION: -1287.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P1-5
+	MSM33_737-1 (30-3) * LATITUDE: 44.279217 * LONGITUDE: 31.829283 * DATE/TIME: 2013-11-13T12:02:00 * ELEVATION: -1288.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-5
+	MSM33_740-1 (31-1) * LATITUDE: 43.904217 * LONGITUDE: 32.173467 * DATE/TIME: 2013-11-13T19:08:00 * ELEVATION: -1679.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-6
+	MSM33_741-1 (31-2) * LATITUDE: 43.904200 * LONGITUDE: 32.173450 * DATE/TIME: 2013-11-13T20:25:00 * ELEVATION: -1660.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P1-6
+	MSM33_742-1 (31-3) * LATITUDE: 43.904200 * LONGITUDE: 32.173450 * DATE/TIME: 2013-11-13T22:18:00 * ELEVATION: -1676.7 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P1-6
+	MSM33_745-1 (32-1) * LATITUDE: 43.532033 * LONGITUDE: 32.515117 * DATE/TIME: 2013-11-14T07:49:00 * ELEVATION: -2069.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_746-2 (32-2) * LATITUDE: 43.532033 * LONGITUDE: 32.515150 * DATE/TIME: 2013-11-14T10:53:00 * ELEVATION: -2069.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_747-1 (32-3) * LATITUDE: 43.532033 * LONGITUDE: 32.515133 * DATE/TIME: 2013-11-14T12:47:00 * ELEVATION: -2069.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: M1
+	MSM33_750-1 (32-6) * LATITUDE: 43.532033 * LONGITUDE: 32.515133 * DATE/TIME: 2013-11-14T17:56:00 * ELEVATION: -2069.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_751-1 (32-7) * LATITUDE: 43.532050 * LONGITUDE: 32.515100 * DATE/TIME: 2013-11-14T21:28:00 * ELEVATION: -2069.4 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_752-1 (32-8) * LATITUDE: 43.532067 * LONGITUDE: 32.515050 * DATE/TIME: 2013-11-14T23:14:00 * ELEVATION: -2067.4 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_756-1 (32-12) * LATITUDE: 43.532067 * LONGITUDE: 32.515117 * DATE/TIME: 2013-11-15T07:30:00 * ELEVATION: -2068.7 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_758-1 (32-14) * LATITUDE: 43.532033 * LONGITUDE: 32.515100 * DATE/TIME: 2013-11-15T12:24:00 * ELEVATION: -2070.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: M1
+	MSM33_763-1 (32-19) * LATITUDE: 43.532067 * LONGITUDE: 32.515083 * DATE/TIME: 2013-11-15T18:26:00 * ELEVATION: -2067.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_770-1 (32-26) * LATITUDE: 43.532133 * LONGITUDE: 32.515167 * DATE/TIME: 2013-11-16T08:03:00 * ELEVATION: -2067.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: M1
+	MSM33_772-1 (32-28) * LATITUDE: 43.532050 * LONGITUDE: 32.515133 * DATE/TIME: 2013-11-16T17:06:00 * ELEVATION: -2071.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: M1
+	MSM33_779-1 (32-35) * LATITUDE: 43.530117 * LONGITUDE: 32.504350 * DATE/TIME: 2013-11-17T13:37:00 * ELEVATION: -2310.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: M1
+	MSM33_782-1 (34-1) * LATITUDE: 44.684983 * LONGITUDE: 31.468333 * DATE/TIME: 2013-11-18T01:15:00 * ELEVATION: -506.3 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO)
+	MSM33_783-1 (35-1) * LATITUDE: 44.696983 * LONGITUDE: 31.456650 * DATE/TIME: 2013-11-18T03:04:00 * ELEVATION: -152.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO)
+	MSM33_785-1 (35-3) * LATITUDE: 44.697017 * LONGITUDE: 31.456617 * DATE/TIME: 2013-11-18T10:26:00 * ELEVATION: -152.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO)
+	MSM33_792-1 (39-1) * LATITUDE: 43.535817 * LONGITUDE: 33.227983 * DATE/TIME: 2013-11-19T07:36:00 * ELEVATION: -2160.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-1
+	MSM33_793-1 (40-1) * LATITUDE: 43.535883 * LONGITUDE: 33.922650 * DATE/TIME: 2013-11-19T12:35:00 * ELEVATION: -2179.8 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-2
+	MSM33_796-1 (40-4) * LATITUDE: 43.535850 * LONGITUDE: 33.922667 * DATE/TIME: 2013-11-19T17:46:00 * ELEVATION: -2181.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-2
+	MSM33_797-1 (41-1) * LATITUDE: 43.535867 * LONGITUDE: 35.384700 * DATE/TIME: 2013-11-20T03:48:00 * ELEVATION: -2189.4 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-4
+	MSM33_801-1 (42-1) * LATITUDE: 43.905850 * LONGITUDE: 36.205783 * DATE/TIME: 2013-11-21T00:47:00 * ELEVATION: -2124.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-6
+	MSM33_802-1 (42-2) * LATITUDE: 43.905883 * LONGITUDE: 36.205783 * DATE/TIME: 2013-11-21T03:02:00 * ELEVATION: -2083.7 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-6
+	MSM33_805-1 (43-1) * LATITUDE: 44.279317 * LONGITUDE: 36.315933 * DATE/TIME: 2013-11-21T09:33:00 * ELEVATION: -1514.8 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-5
+	MSM33_806-1 (43-2) * LATITUDE: 44.279300 * LONGITUDE: 36.315933 * DATE/TIME: 2013-11-21T11:15:00 * ELEVATION: -1516.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-5
+	MSM33_807-1 (43-3) * LATITUDE: 44.279300 * LONGITUDE: 36.315933 * DATE/TIME: 2013-11-21T14:51:00 * ELEVATION: -1516.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-5
+	MSM33_808-1 (43-4) * LATITUDE: 44.279317 * LONGITUDE: 36.315933 * DATE/TIME: 2013-11-21T16:55:00 * ELEVATION: -1509.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-5
+	MSM33_809-1 (43-5) * LATITUDE: 44.279300 * LONGITUDE: 36.315933 * DATE/TIME: 2013-11-21T17:48:00 * ELEVATION: -1514.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-5
+	MSM33_814-1 (45-1) * LATITUDE: 44.561100 * LONGITUDE: 36.338367 * DATE/TIME: 2013-11-22T10:29:00 * ELEVATION: -347.8 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-4
+	MSM33_816-1 (45-5) * LATITUDE: 44.603983 * LONGITUDE: 36.408967 * DATE/TIME: 2013-11-22T15:04:00 * ELEVATION: -266.3 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-4
+	MSM33_817-1 (45-6) * LATITUDE: 44.604000 * LONGITUDE: 36.408983 * DATE/TIME: 2013-11-22T16:20:00 * ELEVATION: -266.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-4
+	MSM33_818-1 (45-7) * LATITUDE: 44.604000 * LONGITUDE: 36.408983 * DATE/TIME: 2013-11-22T18:19:00 * ELEVATION: -266.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-4
+	MSM33_823-1 (46-1) * LATITUDE: 44.628350 * LONGITUDE: 36.415267 * DATE/TIME: 2013-11-23T05:10:00 * ELEVATION: -150.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-3
+	MSM33_824-1 (46-2) * LATITUDE: 44.628350 * LONGITUDE: 36.415267 * DATE/TIME: 2013-11-23T06:29:00 * ELEVATION: -150.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-3
+	MSM33_825-1 (46-3) * LATITUDE: 44.628350 * LONGITUDE: 36.415267 * DATE/TIME: 2013-11-23T08:17:00 * ELEVATION: -150.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-3
+	MSM33_826-1 (46-4) * LATITUDE: 44.628350 * LONGITUDE: 36.415250 * DATE/TIME: 2013-11-23T11:32:00 * ELEVATION: -150.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-3
+	MSM33_827-1 (46-5) * LATITUDE: 44.628350 * LONGITUDE: 36.415250 * DATE/TIME: 2013-11-23T13:19:00 * ELEVATION: -150.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P5-3
+	MSM33_832-1 (48-1) * LATITUDE: 44.776067 * LONGITUDE: 36.457017 * DATE/TIME: 2013-11-23T17:33:00 * ELEVATION: -55.0 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P5-2
+	MSM33_837-1 (50-1) * LATITUDE: 43.530083 * LONGITUDE: 36.099967 * DATE/TIME: 2013-11-24T06:00:00 * ELEVATION: -2172.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_841-1 (50-5) * LATITUDE: 43.529983 * LONGITUDE: 36.100017 * DATE/TIME: 2013-11-24T13:57:00 * ELEVATION: -2173.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-5
+	MSM33_844-1 (50-8) * LATITUDE: 43.530050 * LONGITUDE: 36.099967 * DATE/TIME: 2013-11-24T20:45:00 * ELEVATION: -2172.9 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-5
+	MSM33_873-1 (66-1) * LATITUDE: 43.530033 * LONGITUDE: 36.099933 * DATE/TIME: 2013-11-29T13:05:00 * ELEVATION: -2171.7 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_874-1 (66-2) * LATITUDE: 43.529967 * LONGITUDE: 36.099950 * DATE/TIME: 2013-11-29T16:10:00 * ELEVATION: -2170.6 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_875-1 (66-3) * LATITUDE: 43.529933 * LONGITUDE: 36.100000 * DATE/TIME: 2013-11-29T18:32:00 * ELEVATION: -2173.8 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_876-1 (66-4) * LATITUDE: 43.529933 * LONGITUDE: 36.100000 * DATE/TIME: 2013-11-29T21:43:00 * ELEVATION: -2173.5 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_878-1 (66-6) * LATITUDE: 43.530017 * LONGITUDE: 36.099917 * DATE/TIME: 2013-11-30T07:28:00 * ELEVATION: -2177.2 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_879-1 (66-7) * LATITUDE: 43.529983 * LONGITUDE: 36.099983 * DATE/TIME: 2013-11-30T09:02:00 * ELEVATION: -2173.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-5, cancelled
+	MSM33_882-1 (66-11) * LATITUDE: 43.530050 * LONGITUDE: 36.099950 * DATE/TIME: 2013-11-30T14:19:00 * ELEVATION: -2176.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: CTD/Rosette (CTD-RO) * COMMENT: P3-5
+	MSM33_883-1 (66-12) * LATITUDE: 43.530050 * LONGITUDE: 36.099950 * DATE/TIME: 2013-11-30T16:04:00 * ELEVATION: -2176.1 m * CAMPAIGN: MSM33 (URI: https://doi.org/10.2312/cr_msm33) * BASIS: Maria S. Merian (URI: https://en.wikipedia.org/wiki/RV_Maria_S._Merian) * METHOD/DEVICE: PumpCTD/Rosette (PCTD-RO) * COMMENT: P3-5
+Parameter(s):	Event label (Event) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	DATE/TIME (Date/Time) * GEOCODE * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	LONGITUDE (Longitude) * GEOCODE * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	LATITUDE (Latitude) * GEOCODE * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	DEPTH, water [m] (Depth water) * GEOCODE * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Chlorophyll a [µg/l] (Chl a) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Chlorophyll a [µg/l] (Chl a) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/) * COMMENT: corrected
+	δ13C, organic carbon [‰ PDB] (δ13C Corg) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Nitrogen, inorganic, dissolved [µmol/l] (DIN) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Nitrogen, total dissolved [µmol/l] (TDN) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Oxygen saturation [%] (O2 sat) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Oxygen [µmol/l] (O2) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Carbon, organic, dissolved [µmol/l] (DOC) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Oxygen saturation, per unit volume of the liquid [ml/l] (O2 sat) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Hydrogen sulfide [µmol/l] (H2S) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Ammonium [µmol/l] ([NH4]+) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Nitrite [µmol/l] ([NO2]-) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Nitrate [µmol/l] ([NO3]-) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Phaeophytin [µg/l] (Phaeophytin) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Nitrogen, particulate [µg/l] (PN) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Phosphate [µmol/l] ([PO4]3-) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Carbon, organic, particulate [mg/l] (POC) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Silicon [µmol/l] (Si) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Suspended matter [mg/l] (SPM) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Temperature, water [°C] (Temp) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+	Salinity (Sal) * PI: Waniek, Joanna J (https://orcid.org/0000-0003-3724-073X, joanna.waniek@io-warnemuende.de, http://www.io-warnemuende.de/homepages/waniek/)
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0)
+Size:	7951 data points
+*/
+Event	Date/Time	Longitude	Latitude	Depth water [m]	Chl a [µg/l]	Chl a [µg/l] (corrected)	δ13C Corg [‰ PDB]	DIN [µmol/l]	TDN [µmol/l]	O2 sat [%]	O2 [µmol/l]	DOC [µmol/l]	O2 sat [ml/l]	H2S [µmol/l]	[NH4]+ [µmol/l]	[NO2]- [µmol/l]	[NO3]- [µmol/l]	Phaeophytin [µg/l]	PN [µg/l]	[PO4]3- [µmol/l]	POC [mg/l]	Si [µmol/l]	SPM [mg/l]	Temp [°C]	Sal
+MSM33_713-1	2013-11-11T17:35	31.14030	45.02997	1.50	1.10	1.28	-23.48	0.37		105.13	308.51	222.0	6.92	0.00	0.21	0.06	0.10	0.36	38	0.02	0.330	1.52	0.84	13.3299	17.2305
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03010	10.00						104.73	307.11		6.89	0.00										13.3556	17.2497
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03010	20.00						100.40	294.92		6.62	0.00										13.2068	17.4900
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03010	30.00						98.79	289.69		6.50	0.00										13.1845	17.8401
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03020	32.50	0.37	0.45	-24.52	3.14		93.16	275.42	193.4	6.18	0.00	0.04	0.15	2.95	0.16	13	0.43	0.096	16.86	0.42	13.0969	17.8487
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03020	40.00						87.04	271.04		6.08	0.00										10.3550	18.2096
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03020	50.00						69.90	227.29		5.10	0.00										8.4256	18.3740
+MSM33_713-1	2013-11-11T17:35	31.14030	45.03022	59.25	0.03	0.05	-27.17	0.34	13.4	60.58	197.00	170.3	4.43	0.00	0.05	0.10	0.19	0.05	4	0.02	0.035	2.95	0.42	8.4044	18.4496
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	135.75				2.96		0.45	1.45		0.05	4.00	2.94	0.02	0.00			5.01		61.86		8.4989	20.7113
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	143.50						0.00	0.00		0.00	9.99										8.5428	20.8677
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	150.00						0.00	0.00		0.00	17.49										8.5938	21.0673
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	163.50						0.00	0.00		0.00	23.98										8.6139	21.1427
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	190.50						0.00	0.00		0.00	33.47										8.6751	21.3485
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	215.50						0.00	0.00		0.00	43.46										8.7205	21.4853
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	248.75				24.24		0.00	0.00		0.00	51.96	24.22	0.02	0.00			5.03		109.92		8.7504	21.5684
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	3.50				0.15		101.65	289.61		6.50	0.00	0.00	0.02	0.13			0.01		0.90		14.4602	18.2408
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	33.25				0.30							0.00	0.10	0.19			0.03		3.98		9.5041	18.4153
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	39.00						74.35	243.06		5.46	0.00										8.2406	18.5547
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	44.50						59.85	196.38		4.41	0.00										7.9976	18.7132
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	49.00				1.31							0.00	0.04	1.26			0.45		16.49		7.8849	18.9617
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	58.50						46.59	152.83		3.44	0.00										7.8655	19.0427
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68490	88.25				2.41		34.68	113.52		2.56	0.00	0.00	0.04	2.37			0.86		25.67		7.9045	19.3259
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68496	129.00						0.91	2.91		0.08	0.00										8.4250	20.4660
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	111.50						22.90	74.59		1.69	0.00										8.0470	19.6474
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	115.00						17.06	55.43		1.26	0.00										8.1045	19.7372
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	117.25				3.10		12.51	40.53		0.92	0.00	0.08	0.04	2.98			1.31		36.65		8.1682	19.8792
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	118.00						9.80	31.71		0.73	0.00										8.2234	19.9903
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	119.25				2.86		5.69	18.37		0.43	0.00	0.10	0.04	2.73			1.39		41.61		8.2873	20.1084
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	121.00						3.86	12.42		0.29	0.00										8.3355	20.2286
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	125.25						2.14	6.87		0.17	0.00										8.4078	20.4041
+MSM33_716-1	2013-11-11T20:40	31.46680	44.68500	128.75						0.99	3.18		0.09	0.00										8.4231	20.4541
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	120.00				2.37		4.00	12.87		0.30	0.00	0.00	0.04	2.33			1.44		44.30		8.3459	20.2567
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	122.50				1.99		2.69	8.64		0.21	0.00	0.00	0.02	1.97			1.29		46.40		8.4112	20.4219
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	125.00				1.09		0.80	2.56		0.07	0.00	0.16	0.07	0.86			1.58		52.90		8.4562	20.5632
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	127.00				1.03		0.70	2.25		0.07	0.00	0.11	0.08	0.84			1.56		53.14		8.4582	20.5733
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	129.50				1.06		0.72	2.29		0.07	0.00	0.23	0.07	0.76			1.80		53.79		8.4712	20.6158
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	131.75				0.86						0.00	0.79	0.06	0.00			2.06		55.48		8.4813	20.6457
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	134.25				1.78						0.50	1.75	0.03	0.00			3.41		58.14		8.5052	20.7330
+MSM33_717-1	2013-11-11T23:45	31.46670	44.68500	139.25				3.09						5.00	3.05	0.04	0.00			4.52		61.75		8.5236	20.8025
+MSM33_718-1	2013-11-12T00:26	31.46679	44.68500	3.25	0.29	0.37	-23.48					194.6						0.14	15		0.101		0.64	14.4684	18.2420
+MSM33_718-1	2013-11-12T00:26	31.46680	44.68500	120.50	0.01	0.03	-26.77		12.6			143.9						0.04	10		0.062		0.38	8.3388	20.2380
+MSM33_718-1	2013-11-12T00:26	31.46680	44.68500	134.00		0.03	-27.05					125.8						0.25	7		0.045		0.46	8.5022	20.7247
+MSM33_718-1	2013-11-12T00:26	31.46680	44.68500	32.00	0.48	0.61	-25.13		15.0			193.2						0.24	20		0.107		0.63	10.6550	18.3565
+MSM33_718-1	2013-11-12T00:26	31.46680	44.68500	48.75	0.02	0.05	-26.31		11.6			157.6						0.06	5		0.039		0.37	7.8795	18.9731
+MSM33_718-1	2013-11-12T00:26	31.46680	44.68510	245.00	0.00	0.02			25.8			120.2						0.02	9		0.059		0.40	8.7538	21.5797
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	117.00				2.82							0.00	0.04	2.78			1.22		35.47		8.2522	20.0598
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	119.50				2.96		4.35	13.98		0.33	0.00	1.18	0.06	1.73			2.32		49.06		8.3796	20.4009
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	121.75				3.37		3.58	11.46		0.27	0.00	2.55	0.10	0.72			3.44		56.39		8.4490	20.6049
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	124.25				3.37		2.25	7.20		0.18	0.00	2.54	0.11	0.73			3.43		55.92		8.4683	20.6570
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	129.25				3.40		1.51	4.82		0.12	0.50	2.82	0.11	0.47			3.77		58.49		8.4862	20.7066
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	134.25				2.81						0.00	2.73	0.08	0.00			3.73		57.33		8.4766	20.6826
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	139.25				2.84						1.00	2.74	0.10	0.00			3.71		57.85		8.4662	20.6514
+MSM33_720-1	2013-11-12T04:10	31.45640	44.69700	154.00				6.12						13.49	6.10	0.01	0.00			5.75		68.39		8.5737	20.9882
+MSM33_722-1	2013-11-12T06:53	31.40420	44.74989	2.25	0.31	0.36	-23.58	0.33	10.4			192.7			0.00	0.00	0.33	0.10	14	0.02	0.092	0.77	0.55	14.4562	18.2132
+MSM33_722-1	2013-11-12T06:53	31.40420	44.74990	29.25	0.56	0.68	-24.97	0.34	10.2			180.9			0.00	0.06	0.29	0.23	17	0.02	0.088	3.42	0.53	9.8641	18.2506
+MSM33_722-1	2013-11-12T06:53	31.40420	44.74990	55.00	0.03	0.06	-26.16	1.74	10.6			158.3			0.00	0.03	1.71	0.05	9	0.42	0.059	14.67	0.50	7.9733	18.6834
+MSM33_722-1	2013-11-12T06:53	31.40420	44.74990	75.00	0.03	0.06		2.17	11.3			153.1			0.00	0.04	2.13	0.04	6	0.63	0.045	20.13	0.44	7.8815	19.0256
+MSM33_728-1	2013-11-12T14:48	31.55429	44.57889	2.25	0.42	0.49	-23.80	0.12	10.2			193.8			0.00	0.00	0.11	0.14	15	0.02	0.095	0.83	0.50	14.5591	18.2666
+MSM33_728-1	2013-11-12T14:48	31.55430	44.57890	129.75			-27.19	2.37	9.3			129.3			2.35	0.02	0.00		8	5.36	0.044	60.56	0.37	8.5218	20.7873
+MSM33_728-1	2013-11-12T14:48	31.55430	44.57890	300.00				34.26	34.0			114.1			34.25	0.01	0.00		10	5.48	0.060	139.83	0.57	8.8157	21.7564
+MSM33_728-1	2013-11-12T14:48	31.55430	44.57890	59.75	0.02	0.04	-27.32	2.35	11.8			151.6			0.00	0.02	2.33	0.04	10	0.71	0.054	21.62	0.36	7.8581	19.0608
+MSM33_728-1	2013-11-12T14:48	31.55430	44.57890	788.00				112.81	87.2			120.4			112.72	0.09	0.00		6	8.43	0.048	303.19	0.37	8.9302	22.2542
+MSM33_728-1	2013-11-12T14:48	31.55434	44.57890	37.00	0.51	0.60	-25.09	0.28	10.2			173.4			0.00	0.09	0.19	0.16	16	0.05	0.092	5.32	0.42	9.2925	18.4201
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	109.50				2.50		4.86	15.65		0.37	0.00	0.00	0.03	2.47			1.40		43.48		8.3460	20.2651
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	113.50				2.00		2.79	8.95		0.22	0.00	0.00	0.09	1.91			1.58		48.33		8.3984	20.3978
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	116.50				1.41		1.24	3.97		0.10	0.00	0.02	0.07	1.33			1.48		50.59		8.4435	20.5156
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	119.50				0.42		0.57	1.82		0.06	0.00	0.11	0.05	0.26			0.67		53.48		8.4728	20.6103
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	122.00				0.97		0.43	1.36		0.05	0.00	0.95	0.02	0.00			2.69		56.69		8.5023	20.7057
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	124.50				1.50		0.32	1.02		0.04	0.00	1.48	0.02	0.00			4.15		58.64		8.5166	20.7556
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	127.00				2.34		0.48	1.52		0.05	0.00	2.32	0.02	0.00			5.52		60.73		8.5309	20.8150
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	129.50				3.05		0.71	2.27		0.07	2.50	3.03	0.02	0.00			5.66		61.87		8.5409	20.8442
+MSM33_729-1	2013-11-12T17:24	31.55430	44.57880	99.50				5.89		10.92	35.31		0.81	0.00	2.09	0.07	3.73			1.35		39.54		8.2133	19.9788
+MSM33_729-1	2013-11-12T17:24	31.55440	44.57880	104.50				2.66		7.64	24.65		0.57	0.00	0.00	0.02	2.63			1.35		40.44		8.2881	20.1294
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	103.50						7.00	22.60		0.52	0.00										8.2668	20.0955
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	108.50						4.65	14.96		0.35	0.00										8.3221	20.2124
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	115.50						3.25	10.43		0.25	0.00										8.3994	20.4171
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	118.75						1.53	4.91		0.13	0.00										8.4709	20.6191
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	121.50						0.20	0.65		0.03	0.00										8.4963	20.6999
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	127.50						0.05	0.16		0.02	0.50										8.5210	20.7865
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	136.25						0.00	0.00		0.00	12.99										8.5663	20.9604
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	147.75						0.00	0.00		0.00	15.49										8.6018	21.1023
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	161.00						0.00	0.00		0.00	22.98										8.6222	21.1745
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	207.75						0.00	0.00		0.00	43.46										8.7151	21.4724
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	243.50						0.00	0.00		0.00	58.45										8.7614	21.6039
+MSM33_731-1	2013-11-13T01:34	31.55430	44.57890	291.50						0.00	0.00		0.00	80.06										8.8113	21.7461
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	180.00						0.00	0.00		0.00	31.97										8.6713	21.3403
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	365.00						0.00	0.00		0.00	115.25										8.8525	21.8833
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	38.75						73.13	238.16		5.35	0.00										8.8431	18.5144
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	470.00						0.00	0.00		0.00	163.69										8.8814	22.0196
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	66.00						46.74	153.27		3.45	0.00										7.8898	19.0353
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	80.25						34.31	112.24		2.53	0.00										7.9033	19.3587
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	87.00						23.28	75.86		1.71	0.00										7.9906	19.5776
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	89.75						17.81	57.91		1.31	0.00										8.0163	19.6253
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	94.75						14.35	46.54		1.06	0.00										8.1131	19.8000
+MSM33_731-1	2013-11-13T01:34	31.55440	44.57890	97.00						10.48	33.93		0.78	0.00										8.1656	19.8982
+MSM33_735-1	2013-11-13T08:16	31.82930	44.27928	3.25	0.46	0.56	-24.24	0.08	13.3			204.3			0.03	0.03	0.02	0.18	17	0.03	0.117	1.84	0.68	13.7538	17.8282
+MSM33_735-1	2013-11-13T08:16	31.82930	44.27930	107.00		0.02	-26.80	1.71	10.8			132.5		0.00	0.00	0.06	1.65	0.05	5	1.22	0.033	49.78	0.43	8.4157	20.4400
+MSM33_735-1	2013-11-13T08:16	31.82930	44.27930	125.00		0.03	-27.79	3.08	11.1			133.0			3.04	0.04	0.00	0.30	9	5.89	0.047	62.64	1.21	8.5226	20.7956
+MSM33_735-1	2013-11-13T08:16	31.82930	44.27930	300.25			-28.06	32.38	38.0			118.7			32.38	0.00	0.00		5	5.12	0.028	136.99	0.68	8.8257	21.7929
+MSM33_735-1	2013-11-13T08:16	31.82930	44.27930	32.75	0.16	0.21	-23.77	0.53	10.0	93.30	283.11	179.9	6.35	0.00	0.00	0.23	0.29	0.10	10	0.02	0.056	3.43	0.28	11.1505	18.2012
+MSM33_735-1	2013-11-13T08:16	31.82932	44.27930	1264.80			-28.67	107.01	101.2	0.00	0.00	123.0	0.00	354.62	106.42	0.59	0.00		7	8.96	0.041	317.40	1.37	9.0114	22.3214
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	104.50				1.56							0.00	0.03	1.52			1.20		47.99		8.3985	20.3944
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	107.00				1.51		1.74	5.59		0.14	0.00	0.00	0.04	1.47			1.23		49.09		8.4155	20.4417
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	109.50				1.69		1.11	3.55		0.10	0.00	0.00	0.12	1.57			1.69		50.70		8.4219	20.4755
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	114.50				0.14		0.57	1.82		0.06	0.00	0.03	0.02	0.08			0.47		53.96		8.4719	20.6100
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	119.50				1.09		0.43	1.36		0.05	0.00	1.07	0.02	0.00			2.63		56.68		8.4939	20.6977
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	124.25				2.12		0.32	1.02		0.04	0.00	2.09	0.03	0.00			5.14		59.83		8.5173	20.7767
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	129.25				3.67		0.00	0.00		0.00	3.50	3.66	0.01	0.00			6.02		63.60		8.5474	20.8877
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	134.25				5.87		0.00	0.00		0.00	6.99	5.85	0.02	0.00			6.19		67.62		8.5746	21.0012
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	139.25				6.23		0.44	1.42		0.05	7.99	6.22	0.01	0.00			6.34		68.84		8.5813	21.0289
+MSM33_736-1	2013-11-13T11:03	31.82930	44.27920	99.50				1.93		3.70	11.90		0.28	0.00	0.00	0.06	1.87			1.32		45.53		8.3544	20.2827
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	100.75				2.44		3.67	11.80		0.28	0.00	0.00	0.03	2.41			1.30		45.33		8.3534	20.2820
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	105.50				1.88		2.00	6.42		0.16	0.00	0.00	0.03	1.85			1.21		48.65		8.3967	20.3925
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	108.75				1.85		0.86	2.75		0.08	0.00	0.00	0.13	1.71			1.61		51.45		8.4219	20.4806
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	115.00				0.52		0.34	1.10		0.04	0.00	0.42	0.04	0.06			1.53		56.02		8.4754	20.6237
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	124.50				2.41		0.32	1.02		0.04	0.50	2.36	0.04	0.00			5.69		61.18		8.5216	20.7936
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	131.50				4.06		0.00	0.00		0.00	8.49	4.05	0.01	0.00			6.27		65.04		8.5567	20.9228
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	139.50				7.60		0.00	0.00		0.00	16.49	7.59	0.01	0.00			6.00		71.56		8.5824	21.0330
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	357.25				38.84		0.00	0.00		0.00	114.23	38.84	0.00	0.00			5.34		155.15		8.8522	21.8881
+MSM33_737-1	2013-11-13T11:47	31.82930	44.27930	94.75				2.92		6.02	19.43		0.45	0.00	0.00	0.03	2.89			1.49		42.39		8.2936	20.1586
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	155.50				11.31		0.00	0.00		0.00	23.98	11.31	0.01	0.00			5.11		79.85		8.6292	21.2026
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	170.25				14.62		0.00	0.00		0.00	31.47	14.62	0.00	0.00			4.77		86.42		8.6682	21.3342
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	194.25				18.61		0.00	0.00		0.00	44.96	18.60	0.00	0.00			4.77		96.30		8.7109	21.4634
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	231.75				22.95		0.00	0.00		0.00	57.95	22.95	0.00	0.00			4.80		108.84		8.7598	21.6009
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	280.50				29.98		0.00	0.00		0.00	81.59	29.98	0.00	0.00			4.95		129.81		8.8125	21.7511
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	463.50				51.65		0.00	0.00		0.00	162.67	51.65	0.00	0.00			6.01		190.88		8.8816	22.0237
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	47.50				1.05		72.70	237.70		5.34	0.00	0.00	0.05	1.00			0.23		10.06		8.3462	18.4478
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	56.25				1.83		55.66	182.84		4.11	0.00	0.00	0.04	1.79			0.50		16.77		7.8678	18.8388
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	62.25				2.60		44.76	147.01		3.31	0.00	0.00	0.03	2.56			0.71		20.99		7.8088	19.0788
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	70.00				2.78		30.83	100.78		2.27	0.00	0.00	0.04	2.74			0.92		27.35		7.9264	19.3379
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	76.00				3.06		22.42	73.05		1.65	0.00	0.00	0.04	3.02			1.11		31.72		8.0059	19.5600
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	82.00				3.20		17.52	56.94		1.29	0.00	0.00	0.03	3.16			1.16		34.14		8.0494	19.6529
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	84.75				3.26		13.96	45.29		1.03	0.00	0.00	0.03	3.23			1.21		36.02		8.0799	19.7114
+MSM33_737-1	2013-11-13T11:47	31.82940	44.27930	88.75				3.13		8.17	26.42		0.61	0.00	0.00	0.03	3.10			1.33		39.30		8.2163	19.9730
+MSM33_740-1	2013-11-13T18:27	32.17342	43.90426	2.50	0.36	0.40	-23.22	0.10	10.4			196.9			0.02	0.01	0.07	0.09	13	0.00	0.083	0.97	0.62	14.1256	18.2197
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	102.00		0.02	-27.35	3.55	9.6			125.8			3.53	0.02	0.00	0.16	9	6.29	0.042	63.95	0.41	8.5335	20.8345
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	1550.00				107.56	104.3			124.3			107.56	0.00	0.00		7	8.29	0.039	332.37	0.25	9.0533	22.3330
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	1623.50				105.26	109.8			123.6			105.26	0.00	0.00		7	7.93	0.042	321.85	0.22	9.0650	22.3352
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	27.75	0.69	0.79	-24.68	0.08	10.2			179.6			0.00	0.01	0.06	0.19	20	0.00	0.114	4.85	0.50	9.3223	18.3779
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	300.00				34.53	38.8			117.7			34.53	0.00	0.00		8	5.10	0.039	141.19	0.34	8.8340	21.8288
+MSM33_740-1	2013-11-13T18:27	32.17350	43.90430	74.00	0.01	0.02	-27.07	2.52	10.8			131.7			0.00	0.04	2.48	0.03	3	1.28	0.019	42.35	0.82	8.3621	20.2202
+MSM33_741-1	2013-11-13T21:11	32.17340	43.90420	89.50				0.79							0.00	0.06	0.73			0.11		51.74		8.4704	20.5883
+MSM33_741-1	2013-11-13T21:11	32.17340	43.90420	94.50				0.53							0.38	0.03	0.12			2.43		56.28		8.5015	20.7167
+MSM33_741-1	2013-11-13T21:11	32.17340	43.90420	99.50				1.61							1.58	0.02	0.00			5.62		59.88		8.5229	20.8025
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	109.50				7.90							7.89	0.01	0.00			6.26		66.39		8.5624	20.9554
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	74.75				2.20							0.00	0.04	2.16			1.30		42.72		8.3445	20.1920
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	77.25				1.94							0.00	0.02	1.91			1.24		43.90		8.3775	20.2584
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	79.50				1.77							0.00	0.02	1.76			1.18		45.08		8.3960	20.3171
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	82.25				1.71							0.00	0.01	1.69			1.13		46.48		8.4065	20.3767
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	84.50				1.64							0.00	0.02	1.63			1.12		47.98		8.4296	20.4579
+MSM33_741-1	2013-11-13T21:11	32.17350	43.90420	87.25				1.44							0.00	0.02	1.42			0.96		49.81		8.4484	20.5162
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	102.00						0.18	0.59		0.03	0.00										8.5308	20.8325
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	110.75						0.00	0.00		0.00	9.99										8.5603	20.9473
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	122.00						0.00	0.00		0.00	16.99										8.5957	21.0862
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	135.75						0.00	0.00		0.00	21.98										8.6349	21.2303
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	151.00						0.00	0.00		0.00	30.47										8.6697	21.3448
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	175.25						0.00	0.00		0.00	42.47										8.7162	21.4846
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	210.00						0.00	0.00		0.00	58.95										8.7627	21.6150
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	260.50						0.00	0.00		0.00	81.08										8.8088	21.7479
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	334.25						0.00	0.00		0.00	114.74										8.8498	21.8856
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	40.50						71.44	233.72		5.25	0.00										8.1152	18.5741
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	46.00						60.32	198.06		4.45	0.00										7.8737	18.8713
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	49.75						46.68	153.27		3.45	0.00										7.8257	19.0355
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	54.50						35.05	114.79		2.59	0.00										7.8668	19.2739
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	60.00						22.89	74.59		1.69	0.00										7.9688	19.5223
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	64.25						19.46	63.27		1.43	0.00										8.0788	19.7380
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	67.25						12.90	41.81		0.95	0.00										8.1265	19.8074
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	70.25						10.49	33.93		0.78	0.00										8.2062	19.9719
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	75.00						6.35	20.49		0.47	0.00										8.3178	20.1604
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	78.00						1.89	6.07		0.15	0.00										8.3705	20.2466
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	84.00						1.45	4.64		0.12	0.00										8.4046	20.3835
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	88.50						0.46	1.46		0.05	0.00										8.4430	20.4964
+MSM33_742-1	2013-11-13T22:08	32.17350	43.90430	94.50						0.35	1.10		0.04	0.00										8.4956	20.6916
+MSM33_745-1	2013-11-14T07:02	32.51510	43.53210	2038.80			-27.13	132.00	106.1			123.9			132.00	0.00	0.00		6	7.83	0.035	319.47	0.59	9.1129	22.3357
+MSM33_745-1	2013-11-14T07:02	32.51510	43.53210	34.75	0.49	0.64	-23.62		9.6			166.4				0.10	0.43	0.27	16	0.10	0.089	9.61	0.61	8.7922	18.5042
+MSM33_745-1	2013-11-14T07:02	32.51511	43.53206	2.00	0.34	0.41	-24.07	0.26				189.5			0.16	0.02	0.08	0.13	16	0.00	0.095	1.63	0.57	13.6839	18.2159
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	1550.00				117.40	100.2			121.5			117.40	0.00	0.00		8	8.83	0.043	348.35	0.34	9.0430	22.3278
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	299.75			-26.35	34.32	35.9			116.1			34.32	0.00	0.00		5	5.34	0.028	142.18	0.49	8.8353	21.8250
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	45.00	0.06	0.10	-25.64	3.37	11.3			153.1			1.46	0.03	1.88	0.08	6	0.69	0.033	22.03	0.41	7.8460	18.9325
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	500.00				66.58	59.4			116.0			66.58	0.00	0.00		4	6.66	0.028	220.33	0.46	8.8886	22.0660
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	77.75	0.00	0.01	-27.32	2.34	10.8			135.2			0.00	0.02	2.32	0.02	2	1.35	0.014	45.98	0.40	8.3685	20.3000
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	91.75		0.01	-27.07	12.43	8.0			131.1			12.40	0.03	0.00	0.14	5	1.64	0.028	55.78	0.45	8.4927	20.6773
+MSM33_745-1	2013-11-14T07:02	32.51520	43.53210	999.50			-27.71	97.17	91.6			124.4			97.17	0.00	0.00		5	7.41	0.026	285.93	0.63	8.9584	22.2862
+MSM33_746-2	2013-11-14T10:45	32.51510	43.53210	109.50				5.21							5.20	0.01	0.00			6.79		67.16		8.5648	20.9695
+MSM33_746-2	2013-11-14T10:45	32.51510	43.53210	30.00				0.15							0.06	0.04	0.05			0.01		5.00		10.3870	18.4551
+MSM33_746-2	2013-11-14T10:45	32.51510	43.53210	40.00				1.11							0.00	0.04	1.08			0.36		15.03		7.9389	18.8086
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	15.00				0.15							0.08	0.01	0.06			0.00		1.00		13.7173	18.2088
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	20.00				0.12							0.07	0.01	0.04			0.00		0.94		13.7076	18.2083
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	5.00				0.29							0.22	0.02	0.05			0.00		1.21		13.7165	18.2088
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	55.00				1.86							0.00	0.03	1.82			0.97		29.76		8.0254	19.5440
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	60.00				2.45							0.02	0.03	2.40			1.14		33.35		8.1322	19.7415
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	74.75				2.59							0.00	0.02	2.56			1.40		44.49		8.3444	20.2413
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	84.50				1.48							0.00	0.02	1.46			0.88		50.35		8.4366	20.4895
+MSM33_746-2	2013-11-14T10:45	32.51520	43.53210	94.50				0.97							0.92	0.03	0.03			3.37		57.83		8.5075	20.7307
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	104.50				3.47		0.05	0.16		0.02	3.50	3.44	0.01	0.02			6.74		63.45		8.5468	20.8903
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	79.75				8.18		2.14	6.86		0.17	0.00	6.31	0.02	1.84			1.38		47.05		8.3946	20.3736
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	82.25				1.57		1.50	4.82		0.12	0.00	0.00	0.01	1.55			1.21		48.44		8.4223	20.4403
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	84.75				1.41		1.10	3.54		0.09	0.00	0.00	0.01	1.40			1.07		49.46		8.4362	20.4824
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	87.25				0.94		0.76	2.42		0.07	0.00	0.01	0.01	0.92			0.09		51.31		8.4612	20.5622
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	89.75				0.12		0.46	1.46		0.05	0.00	0.00	0.03	0.08			0.07		53.10		8.4833	20.6392
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	92.25				0.45		0.35	1.11		0.04	0.00	0.41	0.01	0.03			1.68		55.13		8.4953	20.6828
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	94.75				0.84		0.32	1.02		0.04	0.00	0.80	0.01	0.03			3.12		56.84		8.5084	20.7363
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	97.00				1.61		0.31	1.00		0.04	0.00	1.58	0.01	0.02			4.87		58.88		8.5182	20.7736
+MSM33_747-1	2013-11-14T13:04	32.51510	43.53200	99.50				2.19		0.31	1.00		0.04	0.00	2.16	0.01	0.02			6.19		60.78		8.5349	20.8417
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	115.00						0.00	0.00		0.00	14.02										8.5794	21.0289
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	120.00						0.00	0.00		0.00	14.52										8.5929	21.0808
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	129.75						0.00	0.00		0.00	19.52										8.6140	21.1578
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	29.50										0.00										8.8282	18.3403
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	49.75										0.00										7.8502	19.0859
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	500.00						0.00	0.00		0.00	178.18										8.8886	22.0626
+MSM33_750-1	2013-11-14T17:09	32.51510	43.53210	9.75										0.00										13.7267	18.2030
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	100.00										0.00										8.5246	20.8013
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	105.00										5.01										8.5457	20.8887
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	109.75						0.00	0.00		0.00	8.51										8.5663	20.9737
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	149.50						0.00	0.00		0.00	27.53										8.6530	21.2867
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	1499.50						0.00	0.00		0.00	352.45										9.0350	22.3264
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	1799.80						0.00	0.00		0.00	373.85										9.0822	22.3343
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	2038.50						0.00	0.00		0.00	378.02										9.1127	22.3359
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	249.75						0.00	0.00		0.00	72.26										8.7952	21.7047
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	70.00										0.00										8.2401	20.0126
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	75.00										0.00										8.3185	20.1898
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	80.00										0.00										8.3809	20.3344
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	82.00										0.00										8.3958	20.3740
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	84.75										0.00										8.4363	20.4864
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	87.50										0.00										8.4503	20.5268
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	92.00										0.00										8.4764	20.6163
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	95.75										0.00										8.5060	20.7269
+MSM33_750-1	2013-11-14T17:09	32.51520	43.53210	999.75						0.00	0.00		0.00	314.36										8.9588	22.2881
+MSM33_751-1	2013-11-14T21:14	32.51510	43.53210	102.00		0.02		2.78				129.8			2.71	0.07	0.00	0.26	5	6.96	0.028	62.85	0.09	8.5427	20.8773
+MSM33_751-1	2013-11-14T21:14	32.51510	43.53210	51.00	0.12	0.17	-26.13					151.0						0.09	6		0.034		0.67	7.9387	19.2097
+MSM33_751-1	2013-11-14T21:14	32.51520	43.53210	115.00				6.21							6.19	0.02	0.00			6.29		68.85		8.5789	21.0301
+MSM33_751-1	2013-11-14T21:14	32.51520	43.53210	80.50				2.05							0.01	0.08	1.96			1.36		48.68		8.4080	20.4082
+MSM33_751-1	2013-11-14T21:14	32.51520	43.53210	90.25				0.79							0.06	0.08	0.64			0.71		53.00		8.4880	20.6602
+MSM33_752-1	2013-11-14T22:26	32.51520	43.53210	1750.00					105.7			122.5							7		0.048		0.46	9.0742	22.3331
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	118.75				7.57		0.00	0.00		0.00	9.97	7.56	0.01	0.00			5.72		71.52		8.5901	21.0674
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	132.00				10.82		0.00	0.00		0.00	16.95	10.81	0.01	0.00			4.97		78.53		8.6237	21.1944
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	152.25				14.34		0.00	0.00		0.00	27.42	14.33	0.01	0.00			4.85		87.99		8.6665	21.3306
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	180.75				17.85		0.00	0.00		0.00	39.89	17.85	0.00	0.00			4.55		95.63		8.7174	21.4825
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	2022.50				104.43		0.00	0.00		0.00	376.79	104.43	0.00	0.00			8.21		327.61		9.1108	22.3358
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	2033.00				105.64		0.00	0.00		0.00	376.79	105.64	0.00	0.00			8.35		337.55		9.1122	22.3357
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53200	212.00				22.16		0.00	0.00		0.00	54.35	22.16	0.00	0.00			4.46		105.97		8.7584	21.5956
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53201	2041.50				101.26		0.00	0.00		0.00	375.75	101.26	0.00	0.00			7.78		316.92		9.1135	22.3358
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	102.00				2.43		0.19	0.61		0.03	0.50	2.39	0.04	0.00			6.30		62.01		8.5392	20.8595
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	106.00				4.56		0.00	0.00		0.00	3.99	4.55	0.01	0.00			6.87		66.31		8.5562	20.9362
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	38.75				1.01		71.31	233.41		5.24	0.00	0.00	0.04	0.96			0.29		11.84		7.9925	18.7338
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	43.50				1.51		59.39	194.86		4.38	0.00	0.01	0.04	1.46			0.43		15.85		7.8503	18.9645
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	46.75				1.95		47.72	156.63		3.52	0.00	0.00	0.04	1.91			0.65		20.75		7.8712	19.1447
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	53.00				1.27		31.50	102.84		2.32	0.00	0.00	0.04	1.23			0.74		24.87		7.9945	19.4626
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	55.50				2.36		18.17	59.14		1.34	0.00	0.00	0.04	2.32			1.04		30.58		8.0421	19.5981
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	59.75				2.68		12.44	40.40		0.92	0.00	0.00	0.04	2.64			1.16		33.24		8.1273	19.7233
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	66.75				3.65		8.01	25.91		0.60	0.00	0.27	0.03	3.35			1.40		39.17		8.2237	19.9651
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	70.25				3.22		4.59	14.80		0.35	0.00	0.01	0.03	3.19			1.43		42.24		8.2897	20.1259
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	75.00				2.63		2.46	7.90		0.19	0.00	0.00	0.03	2.61			1.43		46.23		8.3590	20.2799
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	77.00				2.11		1.90	6.09		0.15	0.00	0.08	0.02	2.02			1.27		48.89		8.3896	20.3533
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	83.00				1.06		1.29	4.12		0.11	0.00	0.00	0.03	1.04			0.34		51.94		8.4476	20.5293
+MSM33_756-1	2013-11-15T06:48	32.51520	43.53210	89.50				0.54		0.21	0.67		0.03	0.00	0.48	0.01	0.05			1.84		56.26		8.4860	20.6524
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53200	79.50				2.29		2.94	9.47		0.23	0.00	0.00	0.05	2.24			1.41		44.41		8.3611	20.2951
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53200	86.00				1.23		0.67	2.14		0.06	0.00	0.00	0.04	1.20			0.64		50.77		8.4325	20.4741
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53210	104.00				3.77		0.00	0.00		0.00	1.99	3.74	0.02	0.00			6.90		64.40		8.5411	20.8698
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53210	111.00				4.93		0.00	0.00		0.00	4.99	4.92	0.01	0.00			6.75		66.93		8.5604	20.9531
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53210	94.00				0.80		0.44	1.41		0.05	0.00	0.77	0.04	0.00			2.35		56.63		8.4953	20.6827
+MSM33_758-1	2013-11-15T12:37	32.51510	43.53210	99.00				2.60		0.18	0.58		0.03	0.00	2.56	0.04	0.00			6.52		62.02		8.5246	20.8013
+MSM33_763-1	2013-11-15T17:33	32.51510	43.53210	1187.00				95.20		0.00	0.00		0.00	331.31	95.20	0.00	0.00			7.49		289.66		8.9878	22.3097
+MSM33_763-1	2013-11-15T17:33	32.51510	43.53210	1581.00				92.12		0.00	0.00		0.00	357.82	92.12	0.00	0.00			7.10		285.45		9.0468	22.3285
+MSM33_763-1	2013-11-15T17:33	32.51510	43.53210	1778.00				99.06		0.00	0.00		0.00	371.85	99.06	0.00	0.00			7.58		303.98		9.0787	22.3338
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1088.30				94.77		0.00	0.00		0.00	322.48	94.77	0.00	0.00			7.25		275.52		8.9724	22.3004
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1285.50				91.79		0.00	0.00		0.00	340.15	91.79	0.00	0.00			7.09		279.97		9.0037	22.3170
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1384.30				90.89		0.00	0.00		0.00	345.35	90.89	0.00	0.00			7.21		281.90		9.0186	22.3219
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1482.80				94.04		0.00	0.00		0.00		94.04	0.00	0.00			7.22		289.86		9.0332	22.3257
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1630.50				94.84		0.00	0.00		0.00	358.86	94.84	0.00	0.00			7.39		293.47		9.0536	22.3297
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1679.50				96.16		0.00	0.00		0.00	360.42	96.16	0.00	0.00			7.49		297.49		9.0609	22.3309
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1728.80				97.66		0.00	0.00		0.00	366.13	97.66	0.00	0.00			7.58		302.15		9.0702	22.3325
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1827.00				97.64		0.00	0.00		0.00	377.05	97.64	0.00	0.00			7.32		297.86		9.0872	22.3351
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1876.30				105.56		0.00	0.00		0.00	377.57	105.56	0.00	0.00			7.63		308.69		9.0934	22.3357
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	1974.80				98.12		0.00	0.00		0.00	377.57	98.12	0.00	0.00			7.53		304.34		9.1052	22.3357
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	2020.00				105.48		0.00	0.00		0.00	378.09	105.48	0.00	0.00			7.81		314.89		9.1106	22.3358
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	2029.80				102.51		0.00	0.00		0.00	379.13	102.51	0.00	0.00			7.82		316.49		9.1117	22.3358
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	2039.80				103.53		0.00	0.00		0.00	377.05	103.53	0.00	0.00			7.84		319.76		9.1132	22.3358
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	495.25				50.94						177.48	50.94	0.00	0.00			5.57		184.98		8.8882	22.0607
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	594.25				59.48						215.94	59.48	0.00	0.00			6.04		207.10		8.8990	22.1353
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	693.25				68.36						251.80	68.36	0.00	0.00			6.48		227.12		8.9106	22.1937
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	792.00				76.80						278.30	76.80	0.00	0.00			6.98		253.26		8.9256	22.2353
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	89.50				1.19						0.00	0.11	0.11	0.97			0.13		52.02		8.4508	20.5304
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	891.00				83.39						297.01	83.39	0.00	0.00			7.20		266.24		8.9416	22.2647
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	989.50				84.71		0.00	0.00		0.00	311.05	84.71	0.00	0.00			7.06		269.97		8.9573	22.2860
+MSM33_763-1	2013-11-15T17:33	32.51520	43.53210	99.25				2.13						0.26	2.08	0.05	0.00			6.13		60.99		8.5266	20.8116
+MSM33_770-1	2013-11-16T08:12	32.51520	43.53210	104.00				2.74		0.05	0.15		0.02	1.00	2.73	0.01	0.00			6.80		61.98		8.5316	20.8357
+MSM33_770-1	2013-11-16T08:12	32.51520	43.53210	83.00				2.59		2.87	9.23		0.22	0.00	0.23	0.04	2.32			1.44		45.26		8.3719	20.3086
+MSM33_770-1	2013-11-16T08:12	32.51520	43.53210	87.00				2.06		2.17	6.97		0.17	0.00	0.03	0.03	2.01			1.37		47.06		8.4137	20.4108
+MSM33_770-1	2013-11-16T08:12	32.51520	43.53210	92.00				1.14		0.85	2.74		0.08	0.00	0.00	0.05	1.09			0.45		50.94		8.4436	20.5022
+MSM33_770-1	2013-11-16T08:12	32.51520	43.53210	96.00				0.31		0.44	1.42		0.05	0.00	0.03	0.05	0.23			0.46		53.55		8.4761	20.6068
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	104.50				3.92		0.72	2.31		0.07	5.52	3.91	0.01	0.00			6.94		63.92		8.5502	20.9094
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	109.50				4.87		0.18	0.57		0.03	10.04	4.86	0.00	0.00			6.83		65.81		8.5622	20.9561
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	74.75				2.40		3.25	10.44		0.25	0.00	0.07	0.03	2.29			1.33		44.16		8.3596	20.2665
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	79.50				1.97		2.59	8.32		0.20	0.00	0.00	0.02	1.95			1.29		46.66		8.4008	20.3774
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	82.00				1.78		2.13	6.85		0.17	0.00	0.00	0.01	1.76			1.26		47.97		8.4139	20.4154
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	84.75				1.51		1.90	6.08		0.15	0.00	0.00	0.02	1.49			1.02		49.56		8.4402	20.4951
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	87.00				1.05		0.71	2.26		0.07	0.00	0.03	0.04	0.98			0.16		51.08		8.4557	20.5455
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	89.50				0.20		0.89	2.86		0.08	0.00	0.07	0.04	0.09			0.08		52.98		8.4734	20.6051
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	94.50				0.89		1.00	3.18		0.09	0.00	0.79	0.03	0.06			2.95		56.51		8.5061	20.7325
+MSM33_772-1	2013-11-16T17:16	32.51510	43.53200	99.50				2.89		0.77	2.46		0.07	1.00	2.85	0.04	0.00			6.44		60.77		8.5326	20.8444
+MSM33_772-1	2013-11-16T17:16	32.51520	43.53200	114.50				5.47		0.05	0.15		0.02	10.04	5.47	0.00	0.00			6.94		66.90		8.5684	20.9891
+MSM33_772-1	2013-11-16T17:16	32.51520	43.53200	119.25				6.70		0.05	0.16		0.02	13.06	6.69	0.01	0.00			6.03		68.80		8.5759	21.0164
+MSM33_772-1	2013-11-16T17:16	32.51520	43.53200	69.50				3.36		5.07	16.36		0.38	0.00	0.56	0.06	2.74			1.38		42.54		8.2887	20.1150
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	100.00				3.58		0.18	0.57		0.03	2.76	3.56	0.02	0.00			7.06		62.84		8.5281	20.8248
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	110.50				5.17		0.05	0.16		0.02	8.77	5.15	0.02	0.00			6.96		66.27		8.5617	20.9563
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	119.25				8.23		0.00	0.00		0.00	17.29	8.22	0.02	0.00			5.58		70.79		8.5906	21.0791
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	139.00				11.93		0.00	0.00		0.00	24.31	11.92	0.01	0.00			4.86		79.78		8.6420	21.2579
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	159.00				14.49		0.00	0.00		0.00	32.32	14.49	0.00	0.00			4.33		82.98		8.6807	21.3866
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	178.75				17.49		0.00	0.00		0.00	42.85	17.49	0.00	0.00			4.45		92.21		8.7156	21.4821
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	218.50				22.88		0.00	0.00		0.00	59.39	22.88	0.00	0.00			4.72		106.32		8.7673	21.6217
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	238.25				24.54		0.00	0.00		0.00	65.40	24.54	0.00	0.00			4.57		111.14		8.7891	21.6761
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	258.00				26.19		0.00	0.00		0.00	75.69	26.19	0.00	0.00			4.52		114.56		8.8020	21.7233
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	277.75				29.24		0.00	0.00		0.00	83.79	29.23	0.00	0.00			4.81		126.64		8.8200	21.7719
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	297.50				28.28		0.00	0.00		0.00	94.93	28.28	0.00	0.00			4.21		117.51		8.8320	21.8124
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	317.50				30.71		0.00	0.00		0.00	105.06	30.71	0.00	0.00			4.43		127.57		8.8457	21.8550
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	337.25				36.65		0.00	0.00		0.00	114.17	36.65	0.00	0.00			5.10		147.39		8.8539	21.8887
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	85.50				1.73		0.85	2.73		0.08	-0.25	0.42	0.02	1.29			0.72		50.29		8.4327	20.4714
+MSM33_779-1	2013-11-17T13:16	32.52090	43.53010	95.75				2.41		0.31	0.99		0.04	0.25	2.37	0.04	0.00			5.55		59.91		8.5059	20.7280
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	10.00				0.25							0.21	0.01	0.02			0.01		1.28		14.2016	18.2332
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	100.00				2.87							0.04	0.03	2.80			1.30		38.80		8.2564	20.0266
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	115.00				2.55							0.12	0.04	2.39			1.40		43.53		8.3344	20.2156
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	125.00				1.64							0.07	0.06	1.52			1.65		49.75		8.4251	20.4644
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	135.00				2.03							1.92	0.10	0.00			3.81		58.43		8.4957	20.6920
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	140.00				3.43							3.41	0.02	0.00			5.58		62.46		8.5371	20.8479
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	144.75				4.13							4.13	0.00	0.00			5.56		61.54		8.5503	20.8991
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	150.00				5.00							5.00	0.00	0.00			5.69		62.08		8.5638	20.9530
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	160.00				7.02							7.02	0.00	0.00			5.30		65.77		8.5871	21.0455
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	180.00				12.59							12.59	0.00	0.00			4.73		80.13		8.6480	21.2587
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	40.00				0.57							0.07	0.05	0.44			0.03		4.48		9.7431	18.3063
+MSM33_782-1	2013-11-18T00:57	31.46680	44.68500	75.00				1.75							0.02	0.03	1.70			0.66		21.70		7.8394	19.0252
+MSM33_783-1	2013-11-18T02:52	31.45660	44.69700	150.00				6.34		0.00	0.00		0.00	15.43	6.33	0.01	0.00			5.82		68.18		8.5713	20.9846
+MSM33_783-1	2013-11-18T02:52	31.45660	44.69700	155.00				8.35		0.00	0.00		0.00	16.92	8.35	0.00	0.00			5.40		70.72		8.5861	21.0435
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	120.00				2.82		6.36	20.52		0.48	0.00	0.18	0.05	2.59			1.37		41.42		8.2784	20.0973
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	124.00				2.18		3.45	11.12		0.26	0.00	0.04	0.06	2.08			1.49		45.47		8.3218	20.1911
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	127.00				1.56		1.49	4.78		0.12	0.00	0.19	0.07	1.30			1.71		51.11		8.4037	20.4143
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	129.00				1.55		1.30	4.18		0.11	0.00	0.35	0.08	1.12			1.86		52.30		8.4321	20.4923
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	132.00				1.59		0.59	1.88		0.06	0.50	1.52	0.07	0.00			3.25		57.47		8.4673	20.6054
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	137.00				3.06		0.20	0.65		0.03	2.99	3.03	0.03	0.00			4.63		60.92		8.5148	20.7681
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	140.00				4.80		0.05	0.16		0.02	4.98	4.78	0.03	0.00			5.14		61.72		8.5247	20.8050
+MSM33_783-1	2013-11-18T02:52	31.45670	44.69700	145.00				5.17		0.00	0.00		0.00	12.44	5.16	0.02	0.00			5.82		66.53		8.5503	20.9010
+MSM33_785-1	2013-11-18T10:10	31.45660	44.69700	128.00				1.70		1.31	4.19		0.11	0.00	0.62	0.11	0.97			2.07		53.73		8.4500	20.5502
+MSM33_785-1	2013-11-18T10:10	31.45660	44.69700	131.00				1.44		1.02	3.26		0.09	0.00	0.38	0.07	0.98			1.99		52.67		8.4816	20.6533
+MSM33_785-1	2013-11-18T10:10	31.45660	44.69700	137.00				1.47		0.60	1.91		0.06	0.00	1.40	0.06	0.00			3.13		56.54		8.5317	20.8322
+MSM33_785-1	2013-11-18T10:10	31.45660	44.69700	140.00				4.97		0.57	1.81		0.06	4.48	4.95	0.02	0.00			5.55		62.60		8.5417	20.8692
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	1000.50						0.00	0.00		0.00											8.9585	22.2894
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	1548.50				87.31	101.2	0.00	0.00	120.9	0.00	360.35	87.31	0.00	0.00		12	7.14	0.061	277.70	0.34	9.0430	22.3293
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	2129.00			-27.04	86.39	106.8	0.00	0.00	123.7	0.00	381.18	86.39	0.00	0.00		8	6.62	0.044	265.29	0.29	9.1240	22.3359
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	299.50			-26.94	27.95	38.7	0.00	0.00	124.6	0.00	95.29	27.95	0.00	0.00		7	4.40	0.036	117.04	0.27	8.8342	21.8223
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	30.25	0.67	0.76	-23.07	0.37	13.6	100.64	309.60	197.9	6.95	0.00	0.33	0.02	0.03	0.17	20	0.03	0.094	4.74	0.56	9.2015	18.4676
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	399.75			-27.23	40.01		0.00	0.00		0.00	139.56	40.01	0.00	0.00		5	5.06	0.031	151.60	0.60	8.8726	21.9643
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	50.00	0.04	0.07	-26.34	2.37	11.5	22.94	74.75	145.1	1.69	0.00	0.00	0.03	2.34	0.06	14	0.99	0.087	29.26	0.41	7.9648	19.4395
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	600.00			-27.42	59.10		0.00	0.00		0.00	223.40	59.10	0.00	0.00		5	6.04	0.026	205.85	0.42	8.8984	22.1448
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	71.25	0.01	0.01	-27.32	2.43	11.8	3.08	9.91	134.1	0.24	0.00	0.24	0.02	2.17	0.02	3	1.30	0.021	44.13	0.45	8.3584	20.2213
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	798.75			-27.39	70.16		0.00	0.00		0.00	282.76	70.16	0.00	0.00		5	6.39	0.031	232.46	0.37	8.9259	22.2419
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53580	99.75			-27.91	2.03	8.7	0.04	0.14	128.2	0.02	0.00	2.00	0.03	0.00		5	6.18	0.026	60.99	0.26	8.5298	20.8303
+MSM33_792-1	2013-11-19T06:46	33.22800	43.53584	3.00	0.58	0.63	-23.15	1.79	10.0	101.96	292.43	195.0	6.56	0.00	1.75	0.01	0.03	0.10	16	0.06	0.097	4.96	0.45	14.1325	18.3420
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	102.00				1.08		0.77	2.45		0.07	0.00	0.62	0.09	0.38			3.63		57.28		8.5211	20.7634
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	104.50				1.50		0.36	1.16		0.04	0.25	1.45	0.05	0.00			4.83		59.66		8.5263	20.8006
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	107.00				2.62		0.00	0.00		0.00	1.00	2.58	0.04	0.00			6.55		61.98		8.5380	20.8522
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	79.75				2.21		1.95	6.30		0.16	0.00	0.25	0.03	1.93			1.25		42.21		8.3362	20.1367
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	84.50				2.06		3.52	11.31		0.27	0.00	0.14	0.03	1.89			1.25		44.85		8.3979	20.3056
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	89.50				1.59		2.40	7.69		0.19	0.00	0.00	0.02	1.56			1.09		47.79		8.4462	20.4549
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	94.50				0.68		0.88	2.81		0.08	0.00	0.15	0.03	0.51			0.19		51.57		8.4781	20.5691
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53580	99.50				0.76		1.51	4.82		0.12	0.00	0.17	0.05	0.54			1.56		53.55		8.5158	20.7282
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53588	109.50				3.85		0.00	0.00		0.00	1.50	3.82	0.03	0.00			7.46		64.31		8.5548	20.9185
+MSM33_793-1	2013-11-19T12:40	33.92270	43.53590	114.50				5.04		0.18	0.57		0.03	3.50	5.02	0.02	0.00			7.24		66.51		8.5698	20.9717
+MSM33_796-1	2013-11-19T16:57	33.92269	43.53580	4.25	0.62	0.71	-22.67	0.30	10.7	99.72	280.94	194.8	6.31	0.00	0.24	0.02	0.03	0.17	15	0.00	0.095	0.89	0.67	14.9784	18.2282
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	120.00	0.00	0.02	-27.42	6.51	9.6	0.00	0.00	131.3	0.00	5.73	6.50	0.01	0.00	0.03	5	6.56	0.036	67.64	0.38	8.5796	21.0101
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	1550.00			-27.32	104.29	100.5	0.00	0.00	123.5	0.00	357.22	104.29	0.00	0.00		8	8.10	0.042	314.56	0.33	9.0433	22.3291
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	1750.00				106.16	107.9	0.00	0.00	117.7	0.00	374.93	106.16	0.00	0.00		10	7.89	0.055	325.90	0.39	9.0767	22.3349
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	22.00	0.59	0.67	-22.99	0.28	11.0	99.22	279.51	197.0	6.27	0.00	0.24	0.01	0.03	0.15	15	0.00	0.095	0.66	0.35	14.9882	18.2306
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	399.75				43.80		0.00	0.00		0.00	137.47	43.80	0.00	0.00			5.62		166.79		8.8739	21.9653
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	40.00	0.39	0.48	-24.27	0.98	9.7	99.25	310.10	181.6	6.96	0.00	0.83	0.05	0.09	0.17	14	0.02	0.080	4.22	0.56	9.8535	18.4061
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	600.50				60.74		0.00	0.00		0.00	209.86	60.74	0.00	0.00			6.26		210.04		8.8982	22.1270
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53580	82.00	0.62	0.70	-23.43	0.31	10.5					0.00	0.26	0.01	0.04	0.15	13	0.00	0.051	0.64	0.51	8.3937	20.2981
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53582	299.75				34.71	37.3	0.00	0.00	118.9	0.00	94.25	34.71	0.00	0.00		5	5.39	0.029	145.89	0.25	8.8381	21.8356
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53584	2150.50			-27.27	105.27	106.6	0.00	0.00	122.1	0.00	376.49	105.27	0.00	0.00		7	7.94	0.040	325.07	0.41	9.1263	22.3360
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53590	1000.30				88.64		0.00	0.00		0.00	310.36	88.64	0.00	0.00			7.64		282.65		8.9581	22.2879
+MSM33_796-1	2013-11-19T16:57	33.92280	43.53590	800.00				77.41		0.00	0.00		0.00	276.51	77.41	0.00	0.00			6.98		252.63		8.9239	22.2307
+MSM33_797-1	2013-11-20T04:30	35.38477	43.53577	4.50	0.62	0.70	-21.62	0.25	10.4	100.08	285.18	192.7	6.40	0.00	0.21	0.02	0.03	0.15	16	0.04	0.101	1.01	0.70	14.3787	18.2089
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	1000.00				79.87		0.00	0.00		0.00	312.44	79.87	0.00	0.00			5.93		232.64		8.9561	22.2823
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	112.50		0.01		0.25	7.1	0.19	0.59	129.4	0.03	1.04	0.13	0.05	0.08	0.05	6	0.66	0.030	54.87	0.52	8.4911	20.6619
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	1550.00			-26.62	93.14	101.7	0.00	0.00	120.4	0.00	358.27	93.14	0.00	0.00		8	6.71	0.040	269.18	0.34	9.0419	22.3283
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	1750.00			-26.09	93.65	104.0	0.00	0.00	121.5	0.00	378.57	93.65	0.00	0.00		7	6.43	0.044	265.91	0.47	9.0776	22.3354
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	2156.00			-26.12	97.08	108.0	0.00	0.00	126.9	0.00	378.05	97.08	0.00	0.00		8	6.84	0.046	277.95	0.40	9.1270	22.3358
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	300.00			-26.13	33.14	34.8	0.00	0.00	113.7	0.00	90.09	33.14	0.00	0.00		10	5.31	0.049	137.55	0.54	8.8270	21.7901
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	34.00	0.50	0.58	-22.85	0.26	9.7	94.61	282.05	184.9	6.33	0.00	0.20	0.03	0.03	0.16	15	0.00	0.087	2.82	0.62	10.0075	18.3747
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	399.75				42.89		0.00	0.00		0.00	131.23	42.89	0.00	0.00			5.32		158.82		8.8686	21.9449
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	40.25	0.44	0.56	-25.79	0.46	10.2	84.82	274.85	172.0	6.17	0.00	0.13	0.13	0.19	0.24	13	0.08	0.071	6.72	0.62	8.3328	18.4478
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	600.00				55.79		0.00	0.00		0.00	214.54	55.79	0.00	0.00			5.26		179.50		8.8987	22.1242
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	800.00				64.77		0.00	0.00		0.00	272.87	64.77	0.00	0.00			5.42		199.05		8.9234	22.2281
+MSM33_797-1	2013-11-20T04:30	35.38480	43.53580	95.75	0.00	0.01	-26.74	2.46	10.8	3.43	11.03	133.7	0.26	0.00	0.19	0.02	2.25	0.02	3	1.41	0.021	44.87	0.36	8.3627	20.3062
+MSM33_801-1	2013-11-21T00:06	36.20588	43.90578	4.25	0.57	0.65	-21.68	0.77	10.7	100.64	281.67	193.1	6.32	0.00	0.74	0.02	0.00	0.17	13	0.00	0.087	1.60	0.44	15.3282	18.0720
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	107.25	0.00	0.01	-26.13	0.46	10.5			137.0		0.00	0.05	0.16	0.26	0.02	13	0.00	0.070	3.46	0.39	8.3679	20.3163
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	132.50	0.01	0.01	-27.07	3.64	10.0			136.0		2.08	3.60	0.04	0.00	0.01	6	7.19	0.037	65.30	0.60	8.5444	20.8592
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	1550.00				86.11	102.2	0.00	0.00	124.3	0.00	359.31	86.11	0.00	0.00		8	6.92	0.040	272.17	0.49	9.0432	22.3284
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	1646.00				87.94	103.5	0.00	0.00	123.9	0.00	366.60	87.94	0.00	0.00		9	7.10	0.044	281.10	0.64	9.0590	22.3317
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	1905.80				88.36	107.4	0.00	0.00	122.1	0.00	380.66	88.36	0.00	0.00		9	8.01	0.049	287.98	0.43	9.0969	22.3357
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	30.25	0.54	0.64	-22.51	0.73	10.2			175.6			0.21	0.25	0.27	0.20	20	0.03	0.082	3.24	0.48	11.7565	18.2480
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	300.00				29.41	36.0	0.00	0.00	115.5	0.00	89.05	29.41	0.00	0.00		5	4.65	0.030	126.20	0.62	8.8242	21.7745
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	400.00				41.72		0.00	0.00		0.00	135.39	41.72	0.00	0.00			5.44		163.21		8.8692	21.9490
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	59.50	0.02	0.05	-26.14	1.50	11.9			160.3		0.00	0.06	0.04	1.39	0.06	5	0.38	0.030	14.98	0.41	8.0918	18.7651
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	600.00				54.24		0.00	0.00		0.00	212.46	54.24	0.00	0.00			5.69		192.67		8.8985	22.1248
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	800.25				69.58		0.00	0.00		0.00	279.11	69.58	0.00	0.00			6.48		235.33		8.9248	22.2336
+MSM33_801-1	2013-11-21T00:06	36.20590	43.90580	995.50				77.32		0.00	0.00		0.00	311.92	77.32	0.00	0.00			6.71		251.73		8.9567	22.2855
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	104.00				2.49		3.86	12.42		0.29	0.00	0.07	0.02	2.40			1.41		44.87		8.3602	20.2978
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	106.75				2.02		3.25	10.43		0.25	0.00	0.01	0.03	1.97			1.45		47.45		8.4009	20.4183
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	112.00				1.44		1.77	5.67		0.14	0.00	0.07	0.02	1.35			1.51		51.44		8.4612	20.5750
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	114.00				0.69		0.42	1.34		0.05	0.00	0.28	0.03	0.37			1.32		55.72		8.4801	20.6245
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	127.25				1.58		0.31	0.99		0.04	0.00	1.55	0.03	0.00			4.64		60.95		8.5433	20.8571
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	135.00				3.72		0.05	0.15		0.02	4.77	3.72	0.00	0.00			6.44		59.17		8.5695	20.9603
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	146.00				6.45		0.00	0.00		0.00	15.32	6.45	0.00	0.00			4.66		58.60		8.6017	21.0823
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	163.00				10.43		0.00	0.00		0.00	22.35	10.43	0.00	0.00			4.50		72.89		8.6382	21.2157
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	181.75				12.81		0.00	0.00		0.00	30.38	12.81	0.00	0.00			4.13		76.02		8.6755	21.3527
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	205.50				18.62		0.00	0.00		0.00	43.94	18.62	0.00	0.00			4.60		97.05		8.7245	21.4926
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	242.00				23.44		0.00	0.00		0.00	60.01	23.43	0.01	0.00			4.93		112.53		8.7720	21.6270
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	55.50				1.07		71.32	232.83		5.23	0.00	0.13	0.04	0.90			0.30		11.65		8.1383	18.6528
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	61.25				1.62		57.20	187.16		4.21	0.00	0.08	0.03	1.50			0.42		17.26		8.0562	18.7983
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	70.50				2.20		46.00	150.64		3.39	0.00	0.22	0.03	1.96			0.65		21.80		7.9359	19.0840
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	76.50				2.47		35.09	114.79		2.59	0.00	0.16	0.03	2.28			0.83		26.15		7.9226	19.3320
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	80.00				3.12		25.22	82.17		1.86	0.00	0.34	0.03	2.75			1.03		30.84		7.9643	19.4884
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	86.00				3.10		20.10	65.34		1.48	0.00	0.22	0.03	2.85			1.16		33.81		8.0824	19.7199
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	87.50				3.39		15.95	51.69		1.17	0.00	0.44	0.03	2.92			1.21		36.07		8.0984	19.7595
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	95.25				3.42		9.39	30.38		0.70	0.00	0.51	0.03	2.88			1.34		40.40		8.2360	20.0366
+MSM33_802-1	2013-11-21T02:52	36.20590	43.90580	98.25				3.18		7.14	23.03		0.53	0.00	0.35	0.03	2.80			1.37		41.82		8.2898	20.1407
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27915	3.00	0.65	0.71	-23.46	0.30	11.3	100.65	284.46	194.5	6.39	0.00	0.27	0.03	0.00	0.12	18	0.01	0.128	0.69	0.68	14.6924	18.2238
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	1000.00				93.39		0.00	0.00		0.00	321.41	93.39	0.00	0.00			7.62		298.05		8.9618	22.2905
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	106.00	0.01	0.02	-26.84	1.71	9.0			131.1		0.00	0.22	0.02	1.47	0.02	11	1.49	0.060	50.75	0.34	8.4301	20.4956
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	1200.00				95.99		0.00	0.00		0.00	341.76	95.99	0.00	0.00			7.61		302.04		8.9951	22.3133
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	126.50	0.65	0.72	-27.39	3.08	9.1			127.3		1.04	3.05	0.03	0.00	0.13	12	6.52	0.075	63.99	0.51	8.5442	20.8631
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	1300.00			-27.19	101.26	101.2	0.00	0.00	122.5	0.00	346.97	101.26	0.00	0.00		8	7.84	0.044	316.32	0.42	9.0135	22.3221
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	1400.00				103.49		0.00	0.00		0.00	364.19	103.49	0.00	0.00			7.94		324.01		9.0304	22.3275
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	1490.80			-26.74	106.32	107.0	0.00	0.00	120.4	0.00	373.58	106.32	0.00	0.00		10	8.45	0.056	332.53	0.42	9.0458	22.3306
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	24.25	0.62	0.70	-23.93	0.15	10.0			191.2			0.14	0.01	0.00	0.15	13	0.03	0.081	0.76	0.41	14.5499	18.2656
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	300.00				31.48	45.6	0.00	0.00		0.00	86.61	31.48	0.00	0.00		7	4.91	0.039	132.78	0.52	8.8267	21.7917
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	400.00				43.47		0.00	0.00		0.00	134.09	43.47	0.00	0.00			5.43		168.11		8.8678	21.9505
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	54.75	0.03	0.06	-26.36	1.84	11.0			151.3			0.13	0.02	1.68	0.06	6	0.57	0.038	20.21	0.75	7.9134	18.8603
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	600.00				66.10		0.00	0.00		0.00	218.62	66.10	0.00	0.00			6.54		227.75		8.8989	22.1349
+MSM33_805-1	2013-11-21T08:54	36.31600	44.27930	800.00				84.23		0.00	0.00		0.00		84.23	0.00	0.00			7.31		275.90		8.9274	22.2406
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	105.00				1.74		2.19	7.03		0.17	0.00	0.32	0.03	1.38			1.49		51.21		8.4348	20.5031
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	107.50				1.51		1.58	5.07		0.13	0.00	0.25	0.03	1.23			1.46		51.81		8.4549	20.5551
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	110.00				1.20		1.24	3.96		0.10	0.00	0.13	0.02	1.05			1.46		53.32		8.4733	20.6133
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	112.50				1.06		0.71	2.26		0.07	0.00	0.17	0.02	0.88			1.17		54.18		8.4830	20.6466
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	115.25				0.40		0.41	1.30		0.04	0.00	0.14	0.08	0.18			0.30		56.15		8.4995	20.7029
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	118.00				0.49		0.32	1.03		0.04	0.00	0.41	0.01	0.06			1.76		57.69		8.5135	20.7499
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	121.00				0.99		0.49	1.55		0.05	0.25	0.92	0.02	0.04			2.66		58.73		8.5212	20.7766
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	124.00				1.60		0.86	2.74		0.08	0.00	1.57	0.03	0.00			4.39		60.65		8.5391	20.8422
+MSM33_806-1	2013-11-21T11:20	36.31590	44.27930	128.00				2.90						1.00	2.86	0.04	0.00			6.25		63.60		8.5503	20.8852
+MSM33_807-1	2013-11-21T16:35	36.31590	44.27930	109.00				1.34							0.16	0.03	1.15			1.48		52.99		8.4666	20.5967
+MSM33_807-1	2013-11-21T16:35	36.31590	44.27930	112.00				0.97							0.06	0.02	0.90			1.23		53.75		8.4819	20.6425
+MSM33_807-1	2013-11-21T16:35	36.31590	44.27930	118.00				0.65							0.43	0.02	0.20			1.87		56.99		8.5252	20.7934
+MSM33_807-1	2013-11-21T16:35	36.31590	44.27930	128.25				3.49							3.48	0.01	0.00			6.74		64.45		8.5604	20.9097
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	101.25				1.59		1.94	6.22		0.15	0.00	0.09	0.01	1.49			1.45		50.60		8.3956	20.4056
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	109.50				0.91		0.63	2.01		0.06	0.00	0.14	0.03	0.74			0.94		54.46		8.4745	20.6230
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	114.25				0.92		0.19	0.59		0.03	0.25	0.91	0.01	0.00			2.79		58.31		8.4982	20.6983
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	129.50				4.89		0.00	0.00		0.00	6.79	4.88	0.01	0.00			7.11		66.68		8.5680	20.9540
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	145.75				8.24		0.00	0.00		0.00	15.85	8.24	0.00	0.00			5.89		71.48		8.6079	21.1044
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	162.50				10.52		0.00	0.00		0.00	23.90	10.52	0.00	0.00			4.18		69.22		8.6405	21.2360
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	177.25				13.80		0.00	0.00		0.00	31.45	13.78	0.02	0.00			4.38		80.36		8.6801	21.3668
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	194.25				18.74		0.00	0.00		0.00	44.02	18.74	0.00	0.00			4.51		94.53		8.7173	21.4763
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	236.25				24.08		0.00	0.00		0.00	58.11	24.08	0.00	0.00			4.83		112.93		8.7706	21.6255
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	62.25				2.24		48.21	157.97		3.55	0.00	0.27	0.02	1.95			0.64		20.69		7.9045	19.0345
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	69.50				2.55		34.51	112.89		2.54	0.00	0.09	0.01	2.45			0.84		25.69		7.8834	19.2667
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	75.50				2.89		25.52	83.17		1.88	0.00	0.08	0.01	2.80			1.04		30.00		8.0065	19.5790
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	76.25				3.07		19.76	64.23		1.45	0.00	0.06	0.01	2.99			1.15		32.87		8.0247	19.6132
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	80.25				3.22		13.19	42.76		0.97	0.00	0.19	0.01	3.01			1.25		37.04		8.0972	19.7618
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	84.25				2.99		10.65	34.44		0.79	0.00	0.00	0.01	2.98			1.30		38.52		8.1663	19.9013
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	87.75				2.98		8.20	26.47		0.61	0.00	0.14	0.01	2.83			1.36		41.00		8.2263	20.0206
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	94.75				2.82		4.66	14.99		0.35	0.00	0.33	0.02	2.47			1.45		44.80		8.3115	20.2019
+MSM33_808-1	2013-11-21T17:33	36.31600	44.27930	98.50				2.24		3.25	10.45		0.25	0.00	0.17	0.02	2.05			1.47		47.43		8.3633	20.3224
+MSM33_809-1	2013-11-21T18:49	36.31600	44.27930	48.25				0.68		74.67	243.99		5.48		0.19	0.03	0.45			0.15		9.88		8.1329	18.6216
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	10.00				0.46							0.42	0.01	0.02			0.00		2.00		15.6293	17.9942
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	110.00				2.40							0.08	0.02	2.30			1.31		44.73		8.3466	20.2570
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	120.00				1.56							0.10	0.01	1.45			1.35		49.55		8.4398	20.4994
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	125.00				1.26							0.12	0.01	1.12			1.35		51.95		8.4568	20.5545
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	129.00				1.05							0.19	0.02	0.84			1.00		53.08		8.4810	20.6316
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	134.75				0.40							0.29	0.03	0.09			1.27		56.15		8.5061	20.7186
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	144.00				2.06							2.04	0.02	0.00			4.81		60.66		8.5369	20.8314
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	148.75				3.58							3.56	0.02	0.00			6.58		64.06		8.5564	20.9019
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	175.25				16.68							16.68	0.00	0.00			4.54		90.26		8.6441	21.2224
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	250.00				21.27							21.27	0.00	0.00			4.28		100.03		8.7702	21.6194
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	45.00				0.67							0.32	0.06	0.30			0.00		4.73		9.4755	18.2640
+MSM33_814-1	2013-11-22T09:21	36.33840	44.56110	75.00				2.07							0.11	0.02	1.93			0.61		21.58		7.8731	18.9937
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60390	27.50	0.68	0.75	-23.62	0.32	11.1			195.2			0.28	0.01	0.03	0.14	12	0.03	0.078	0.93	0.55	15.5255	18.1280
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60399	3.00	0.67	0.74	-22.74	0.37	10.4			193.5			0.33	0.02	0.02	0.14	22	0.00	0.112	1.67	0.65	15.7065	17.9857
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	116.75	0.01	0.02	-26.76	1.84	9.4			129.9			0.31	0.02	1.52	0.02	13	1.59	0.044	50.08	0.49	8.4002	20.4080
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	143.50		0.01	-27.65	3.69	10.3			126.0			3.68	0.01	0.00	0.10	7	6.32	0.041	63.53	0.45	8.5467	20.8747
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	170.00			-26.47	10.17							10.17	0.00	0.00		8	4.57	0.047	72.08	0.37	8.6282	21.1690
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	262.75			-25.64	20.98	24.5			118.9			20.98	0.00	0.00		8	4.28	0.042	99.39	0.53	8.7733	21.6278
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	60.25				0.87							0.15	0.03	0.69		6	0.08	0.034	8.04	0.49	8.5626	18.4248
+MSM33_816-1	2013-11-22T14:48	36.40910	44.60400	69.50	0.03	0.06	-26.43	1.66	11.3			157.7			0.20	0.02	1.44	0.05	5	0.37	0.031	15.15	0.50	8.1821	18.6555
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	101.00				3.20		14.13	45.77		1.04	0.00	0.20	0.02	2.98			1.23		35.37		8.1592	19.8637
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	104.00				3.16		7.90	25.54		0.59	0.00	0.23	0.02	2.91			1.32		39.23		8.2001	19.9489
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	109.00				3.10		6.62	21.38		0.49	0.00	0.25	0.02	2.83			1.35		40.41		8.3059	20.1831
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	112.50				2.68		3.87	12.45		0.29	0.00	0.28	0.02	2.39			1.40		44.48		8.3472	20.2739
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	119.00				2.34		3.25	10.45		0.25	0.00	0.36	0.02	1.96			1.45		47.35		8.3982	20.4020
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	125.00				1.80		2.21	7.08		0.17	0.00	0.34	0.01	1.45			1.62		50.78		8.4470	20.5503
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	133.00				1.08		0.35	1.11		0.04	0.00	0.71	0.06	0.30			2.10		56.37		8.5017	20.7212
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	135.00				1.69		0.32	1.02		0.04	0.75	1.67	0.02	0.00			4.19		59.60		8.5182	20.7668
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	147.50				4.14		0.05	0.15		0.02	5.26	4.13	0.01	0.00			6.71		64.76		8.5691	20.9503
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	160.50				7.80		0.00	0.00		0.00	16.77	7.80	0.00	0.00			5.39		68.82		8.6048	21.0890
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	176.00				10.95		0.00	0.00		0.00	21.27	10.95	0.00	0.00			4.88		78.09		8.6461	21.2254
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	199.25				14.72		0.00	0.00		0.00	30.28	14.72	0.00	0.00			4.74		86.80		8.6873	21.3814
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	228.50				18.76		0.00	0.00		0.00	44.30	18.76	0.00	0.00			4.53		94.82		8.7233	21.4869
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	66.00				1.65		71.75	234.18		5.26	0.00	0.65	0.02	0.97			0.22		11.30		8.2573	18.5619
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	71.50				1.63		59.23	193.83		4.36	0.00	0.17	0.02	1.44			0.40		15.44		8.0173	18.8481
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	79.50				1.98		48.82	160.17		3.60	0.00	0.17	0.02	1.80			0.59		19.93		7.9424	19.1212
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	84.75				2.60		37.68	123.10		2.77	0.00	0.25	0.02	2.34			0.81		24.94		7.9712	19.2895
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	93.00				3.00		23.60	76.85		1.74	0.00	0.21	0.02	2.78			1.05		30.71		8.0227	19.5933
+MSM33_817-1	2013-11-22T16:09	36.40910	44.60400	98.50				3.26		19.50	63.40		1.44	0.00	0.25	0.02	2.99			1.13		32.32		8.0938	19.7513
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	126.75				1.93		2.38	7.63		0.19	0.00	0.53	0.02	1.37			1.59		50.79		8.4340	20.5113
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	129.25				1.82		1.44	4.61		0.12	0.00	0.47	0.02	1.32			1.66		50.79		8.4579	20.5792
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	131.75				1.57		0.89	2.84		0.08	0.00	0.29	0.02	1.26			1.73		51.30		8.4684	20.6148
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	134.25				1.46		0.74	2.36		0.07	0.00	0.25	0.03	1.18			1.86		52.24		8.4832	20.6561
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	136.75				1.35		0.57	1.82		0.06	0.00	0.21	0.03	1.11			2.00		53.33		8.4931	20.6887
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	139.25				1.34		0.32	1.02		0.04	0.00	0.24	0.04	1.06			2.05		53.82		8.5104	20.7394
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	141.75				1.24						0.25	0.34	0.04	0.86			1.78		54.40		8.5207	20.7724
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	144.25				0.97							0.47	0.04	0.46			1.81		55.48		8.5369	20.8303
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	146.75				1.01						0.50	0.86	0.04	0.11			2.23		56.88		8.5514	20.8826
+MSM33_818-1	2013-11-22T18:57	36.40900	44.60400	149.00				1.69						3.00	1.67	0.02	0.00			3.41		58.45		8.5610	20.9170
+MSM33_823-1	2013-11-23T05:00	36.41530	44.62830	122.75	0.01	0.02	-27.39	2.12	10.2			132.7			0.30	0.08	1.73	0.02	6	1.59	0.036	48.99	0.41	8.3921	20.4066
+MSM33_823-1	2013-11-23T05:00	36.41530	44.62830	137.00		0.01	-27.47	3.61	10.2			127.5			3.54	0.07	0.00	0.08	14	4.90	0.050	62.43	0.61	8.5322	20.8278
+MSM33_823-1	2013-11-23T05:00	36.41530	44.62830	33.50	0.63	0.71	-23.25	0.60	11.8			198.4			0.44	0.07	0.08	0.14	13	0.01	0.083	0.94	0.59	15.4129	18.1336
+MSM33_823-1	2013-11-23T05:00	36.41530	44.62830	80.75	0.02	0.04	-27.63	2.56	12.3			151.6			0.28	0.08	2.20	0.04	5	0.71	0.025	22.45	1.10	7.9753	19.1423
+MSM33_823-1	2013-11-23T05:00	36.41540	44.62830	150.25		0.01		5.32	10.6			127.2			5.26	0.06	0.00	0.08	7	5.77	0.039	66.28	0.47	8.5646	20.9386
+MSM33_823-1	2013-11-23T05:00	36.41540	44.62830	4.00	0.67	0.77	-20.53	0.53	11.1			188.1			0.41	0.07	0.06	0.19	14	0.03	0.095	1.53	0.91	15.5823	17.9795
+MSM33_823-1	2013-11-23T05:00	36.41540	44.62830	47.50	0.12	0.17	-25.71	0.86	10.4			171.3			0.27	0.10	0.50	0.09	6	0.04	0.040	4.85	0.61	9.6453	18.2764
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	100.75				3.36		13.56	43.96		1.00	0.00	0.30	0.07	2.99			1.21		35.62		8.1181	19.7824
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	107.00				3.53		8.84	28.60		0.66	0.00	0.41	0.07	3.05			1.35		38.21		8.2110	19.9706
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	111.75				3.16		6.61	21.33		0.49	0.00	0.27	0.06	2.83			1.35		40.84		8.2818	20.1259
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	117.25				2.92		4.51	14.54		0.34	0.00	0.32	0.06	2.53			1.40		43.81		8.3617	20.3096
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	120.50				2.64		3.38	10.88		0.26	0.00	0.36	0.06	2.22			1.42		45.86		8.3926	20.4030
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	124.25				1.93		1.53	4.91		0.13	0.00	0.47	0.07	1.39			1.64		51.43		8.4382	20.5160
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	128.50				1.61		0.98	3.13		0.09	0.00	0.33	0.09	1.20			1.97		53.37		8.4570	20.5789
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	133.25				2.90		0.32	1.02		0.04	2.50	2.83	0.07	0.00			4.40		61.32		8.5061	20.7421
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	150.50				4.53		0.00	0.00		0.00	6.99	4.47	0.06	0.00			5.56		65.13		8.5629	20.9313
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	65.50				1.49		73.28	238.61		5.36	0.00	0.41	0.07	1.00			0.21		10.58		8.3416	18.5585
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	71.50				2.07		55.15	180.45		4.06	0.00	0.35	0.07	1.65			0.50		17.37		8.1030	18.7652
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	80.00				2.31		48.80	159.85		3.59	0.00	0.38	0.07	1.87			0.59		19.78		7.8906	19.0571
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	85.50				2.91		34.48	112.67		2.54	0.00	0.44	0.07	2.41			0.85		25.92		7.9763	19.1996
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	95.75				3.15		25.36	82.59		1.86	0.00	0.31	0.07	2.77			1.04		30.00		8.0248	19.5834
+MSM33_824-1	2013-11-23T06:19	36.41530	44.62830	96.75				3.35		20.61	66.99		1.52	0.00	0.30	0.06	2.98			1.09		31.67		8.0458	19.6522
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	125.00				2.38		3.56	11.42		0.27	0.00	0.28	0.08	2.01			1.48		47.31		8.4158	20.4491
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	127.50				2.12		2.66	8.53		0.21	0.00	0.32	0.08	1.72			1.57		48.98		8.4300	20.4757
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	135.00				1.60		0.97	3.11		0.09	0.00	0.34	0.08	1.17			1.96		53.42		8.4909	20.6855
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	137.50				1.67		0.43	1.38		0.05	0.00	0.93	0.12	0.62			2.51		56.09		8.5007	20.7024
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	141.00				1.67		0.29	0.94		0.04	0.00	1.55	0.11	0.00			2.96		57.45		8.5078	20.7443
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	144.00				1.96		0.33	1.07		0.04	0.00	1.86	0.10	0.00			3.24		58.26		8.5210	20.7508
+MSM33_825-1	2013-11-23T08:03	36.41520	44.62830	147.00				2.48		0.19	0.61		0.03	0.50	2.39	0.09	0.00			3.76		59.26		8.5509	20.8735
+MSM33_825-1	2013-11-23T08:03	36.41527	44.62840	130.00				1.99		2.28	7.32		0.18	0.00	0.37	0.06	1.56			1.58		50.24		8.4558	20.5424
+MSM33_825-1	2013-11-23T08:03	36.41530	44.62832	132.50				1.72		1.61	5.16		0.13	0.00	0.32	0.07	1.34			1.81		51.96		8.4740	20.6152
+MSM33_826-1	2013-11-23T12:55	36.41520	44.62830	128.50				1.98		2.54	8.13		0.20		0.28	0.10	1.60			1.68		50.20		8.4368	20.5155
+MSM33_827-1	2013-11-23T13:20	36.41520	44.62830	131.50				1.70		0.84	2.70		0.08		0.50	0.14	1.07			2.21		54.00		8.4788	20.6433
+MSM33_827-1	2013-11-23T13:20	36.41520	44.62830	138.00				3.19		0.17	0.56		0.03	2.00	3.11	0.08	0.00			4.67		61.37		8.5450	20.8339
+MSM33_827-1	2013-11-23T13:20	36.41520	44.62830	143.50				4.45		0.00	0.00		0.00	6.00	4.38	0.07	0.00			5.35		63.58		8.5587	20.9142
+MSM33_827-1	2013-11-23T13:20	36.41521	44.62830	136.25				2.78		0.33	1.05		0.04	1.00	2.66	0.11	0.00			4.27		60.31		8.5326	20.8166
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	10.25				0.45		98.71	277.39		6.23	0.00	0.34	0.05	0.06			0.04		1.13		15.1548	18.0311
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	2.50	0.65	0.71	-22.07	0.73	10.8	99.54	279.67	187.8	6.28	0.00	0.58	0.07	0.08	0.12	16	0.04	0.114	1.32	0.37	15.1593	18.0313
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	20.00				0.47		98.70	277.43		6.23	0.00	0.36	0.05	0.06			0.04		1.13		15.1625	18.0311
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	30.00	0.66	0.75	-22.99	0.61	10.8	97.19	277.10	192.0	6.22	0.00	0.45	0.06	0.10	0.17	15	0.04	0.095	1.29	0.61	15.0571	18.0242
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	37.75	0.13	0.17	-25.91	1.19	11.8	85.61	269.93	172.9	6.06	0.00	0.32	0.08	0.79	0.07	7	0.07	0.047	5.22	0.65	10.1371	18.2668
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	47.50				1.08		82.77	267.34		6.00	0.00	0.30	0.07	0.70			0.12		6.65		8.6637	18.3889
+MSM33_832-1	2013-11-23T17:28	36.45710	44.77610	57.50	0.04	0.07		2.09	11.8	66.55	216.44	161.4	4.86	0.00	0.38	0.13	1.58	0.05	4	0.33	0.028	12.71	0.65	8.3237	18.6192
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	1.75	0.52	0.59	-22.03	0.20	10.9			191.3		0.00	0.18	0.01	0.01	0.13	13	0.02	0.091	1.03	0.51	14.6251	18.1695
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	100.50	0.01	0.02	-26.58	2.24	10.2			132.7		0.00	0.44	0.03	1.77	0.03	7	1.42	0.035	49.06	0.40	8.4190	20.4558
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	120.00		0.02	-27.53	3.11	9.4			126.7		0.00	3.09	0.02	0.00	0.21	14	7.05	0.045	62.73	0.45	8.5470	20.8757
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	1550.30				83.50	103.7	0.00	0.00	122.9	0.00	359.83	83.50	0.00	0.00		8	7.10	0.040	266.32	0.58	9.0433	22.3286
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	1782.50				88.91	106.8	0.00	0.00	122.5	0.00	379.62	88.91	0.00	0.00		8	7.20	0.044	279.22	0.32	9.0817	22.3352
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	1850.00				94.70		0.00	0.00		0.00	378.57	94.70	0.00	0.00			7.64		298.44		9.0901	22.3357
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	21.25	0.60	0.68	-22.06	0.17	10.7			188.4		0.00	0.17	0.00	0.00	0.16	14	0.02	0.087	1.15	0.58	11.6573	18.2609
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	2146.50			-26.74	96.89	106.9	0.00	0.00	120.9	0.00	377.53	96.89	0.00	0.00		8	7.67	0.047	304.24	0.44	9.1260	22.3357
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	300.00			-26.60	29.28	35.3	0.00	0.00	118.9	0.00	86.44	29.28	0.00	0.00		9	4.67	0.039	124.67	0.51	8.8366	21.7973
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	35.50	0.33	0.43	-25.54	0.54	10.8			168.5		0.00	0.23	0.05	0.25	0.19	12	0.09	0.064	6.84	0.86	8.4956	18.4215
+MSM33_837-1	2013-11-24T05:09	36.10000	43.53000	54.50										0.00										7.8582	18.9025
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	100.00				1.85		2.28	7.31		0.18	0.00	0.20	0.02	1.63			1.51		49.28		8.4459	20.5222
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	102.00				1.38		1.35	4.33		0.11	0.00	0.13	0.01	1.24			1.44		51.76		8.4633	20.5796
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	104.00				1.35		1.15	3.69		0.10	0.00	0.15	0.01	1.19			1.36		51.90		8.4716	20.6069
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	108.00				0.61		0.31	1.00		0.04	0.00	0.16	0.06	0.38			0.35		54.06		8.5004	20.7034
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	114.00				0.24		0.18	0.56		0.03	0.00	0.15	0.03	0.06			1.68		56.69		8.5136	20.7509
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	121.50				4.59		0.00	0.00		0.00	5.00	4.58	0.01	0.00			6.64		65.20		8.5389	20.8456
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	125.00				3.08		0.18	0.59		0.03	1.00	3.05	0.03	0.00			6.84		62.17		8.5443	20.8829
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	129.00				4.23		0.06	0.19		0.02	1.50	4.21	0.02	0.00			7.51		64.51		8.5611	20.9545
+MSM33_841-1	2013-11-24T14:10	36.10000	43.53000	96.00				2.27		3.14	10.10		0.24	0.00	0.22	0.04	2.01			1.38		47.14		8.4079	20.4250
+MSM33_844-1	2013-11-24T20:13	36.10000	43.53001	113.00				1.02		0.19	0.62		0.03	0.00	0.95	0.02	0.05			2.39		57.49		8.5164	20.7506
+MSM33_844-1	2013-11-24T20:13	36.10000	43.53002	109.25				0.49		0.31	0.98		0.04	0.50	0.42	0.02	0.05			0.27		54.91		8.5063	20.6905
+MSM33_844-1	2013-11-24T20:13	36.10000	43.53008	102.00				1.80		2.59	8.30		0.20	0.00	0.16	0.02	1.62			1.51		50.24		8.4438	20.5189
+MSM33_844-1	2013-11-24T20:13	36.10000	43.53010	105.00				1.61		1.59	5.08		0.13	0.00	0.20	0.01	1.40			1.49		50.97		8.4755	20.6171
+MSM33_844-1	2013-11-24T20:13	36.10000	43.53010	120.25				2.61		0.18	0.57		0.03	0.50	2.60	0.02	0.00			6.58		61.83		8.5517	20.8766
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1000.30				85.55		0.00	0.00		0.00	314.52	85.50	0.05	0.00			8.37		278.08		8.9588	22.2865
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	113.25				1.75						0.00	0.40	0.04	1.31			1.28		54.35		8.4949	20.6797
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1199.80				88.73		0.00	0.00		0.00	334.83	88.63	0.10	0.00			8.27		286.35		8.9901	22.3106
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1499.00				102.57		0.00	0.00		0.00	356.70	102.49	0.08	0.00			7.98		316.11		9.0361	22.3272
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1601.30				102.27		0.00	0.00		0.00	361.39	102.19	0.08	0.00			7.98		320.49		9.0505	22.3300
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1699.50				100.52		0.00	0.00		0.00	369.72	100.45	0.07	0.00			8.05		313.46		9.0667	22.3329
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1749.50				105.51		0.00	0.00		0.00	375.97	105.42	0.09	0.00			7.98		325.15		9.0763	22.3344
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1800.50				107.50		0.00	0.00		0.00	380.14	107.39	0.11	0.00			8.05		330.21		9.0842	22.3354
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	1901.00				106.02		0.00	0.00		0.00	379.10	105.94	0.08	0.00			8.51		330.98		9.0962	22.3357
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	2001.00						0.00	0.00		0.00	379.10										9.1081	22.3357
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	2100.50				105.30		0.00	0.00		0.00	380.14	105.21	0.09	0.00			9.33		328.98		9.1202	22.3357
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	2126.80				105.71		0.00	0.00		0.00	379.10	105.62	0.09	0.00			9.57		331.72		9.1232	22.3357
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	2136.00				101.62		0.00	0.00		0.00	382.22	101.53	0.09	0.00			9.01		313.91		9.1247	22.3357
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	2144.50				106.81		0.00	0.00		0.00	380.14	106.71	0.10	0.00			9.41		333.79		9.1256	22.3358
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	600.00				59.15		0.00	0.00		0.00	216.11	59.14	0.01	0.00			6.62		207.73		8.9056	22.1346
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	700.75				68.07		0.00	0.00		0.00	245.27	68.02	0.06	0.00			7.27		233.40		8.9107	22.1823
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	798.75				76.45		0.00	0.00		0.00	273.91	76.41	0.04	0.00			7.54		257.19		8.9236	22.2284
+MSM33_873-1	2013-11-29T12:19	36.09980	43.53000	900.00				80.49		0.00	0.00		0.00	294.22	80.46	0.04	0.00			7.86		267.66		8.9403	22.2631
+MSM33_873-1	2013-11-29T12:19	36.09990	43.53000	1399.50				96.60		0.00	0.00		0.00	348.89	96.52	0.08	0.00			8.66		301.65		9.0209	22.3232
+MSM33_873-1	2013-11-29T12:19	36.09990	43.53000	1649.30				93.59		0.00	0.00		0.00	362.43	93.51	0.08	0.00			7.17		290.00		9.0572	22.3310
+MSM33_873-1	2013-11-29T12:19	36.09990	43.53000	1851.00				101.17		0.00	0.00		0.00	380.14	101.08	0.09	0.00			7.80		313.26		9.0903	22.3355
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	102.25	0.01	0.02	-27.14	2.24	10.3			131.6			0.29	0.03	1.92	0.02	4	1.45	0.017	47.15	0.41	8.3727	20.3388
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	124.50		0.01	-28.57	3.42	9.0			127.8			3.40	0.03	0.00	0.11	13	7.15	0.040	63.37	0.74	8.5222	20.7804
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	1550.50				98.97	102.4			119.5			98.83	0.14	0.00		7	8.02	0.042	308.33	0.37	9.0433	22.3285
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	18.00	0.81	1.00	-21.87	0.51	11.3			193.7			0.40	0.03	0.08	0.37	32	0.00	0.150	1.10	0.27	13.8890	18.0644
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	1800.50				108.02	107.2			127.1			107.88	0.14	0.00		9	8.91	0.050	329.41	0.40	9.0836	22.3353
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	27.50	0.75	0.84	-22.88	0.55	11.0			191.3			0.43	0.03	0.10	0.19	22	0.00	0.114	1.55	0.66	13.8542	18.0663
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	300.25				29.39	34.7			117.3			29.38	0.01	0.00		6	4.98	0.033	126.10	0.45	8.8328	21.7989
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	38.00				1.00							0.39	0.05	0.56			0.07		5.58		9.0978	18.2783
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	70.25	0.01	0.03	-26.13	2.61	11.4			149.9			0.32	0.03	2.26	0.04	7	0.69	0.034	22.82	0.50	7.9253	19.1020
+MSM33_874-1	2013-11-29T15:18	36.09980	43.53000	999.50				87.74							87.65	0.09	0.00		11	7.83	0.047	284.64	0.46	8.9578	22.2848
+MSM33_874-1	2013-11-29T15:18	36.09985	43.53012	2144.80				106.15	107.7			123.3			105.99	0.16	0.00		9	8.56	0.056	324.18	0.41	9.1260	22.3357
+MSM33_874-1	2013-11-29T15:18	36.09990	43.53000	55.25				1.63							0.39	0.04	1.21			0.27		11.40		8.1677	18.5014
+MSM33_875-1	2013-11-29T18:14	36.09980	43.52990	78.75				2.82		29.06	94.83		2.14	0.00	0.39	0.04	2.39			0.95		27.75		7.9968	19.5503
+MSM33_875-1	2013-11-29T18:14	36.09980	43.52990	79.25				2.89		22.51	73.33		1.66	0.00	0.28	0.03	2.58			1.06		30.13		8.0205	19.6094
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	54.00				1.57		71.00	232.38		5.22	0.00	0.32	0.03	1.22			0.30		11.42		8.1069	18.5487
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	59.50				2.03		60.11	197.22		4.43	0.00	0.32	0.03	1.68			0.44		15.31		8.1043	18.6180
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	65.00				2.25		46.47	152.39		3.43	0.00	0.35	0.03	1.87			0.65		20.43		7.9398	18.9872
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	82.50				3.22		17.31	56.26		1.28	0.00	0.30	0.03	2.89			1.19		33.12		8.0914	19.7419
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	86.50				3.29		10.78	34.94		0.80	0.00	0.28	0.02	2.98			1.28		36.49		8.1494	19.8486
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	88.50				3.31		8.43	27.27		0.63	0.00	0.31	0.03	2.98			1.33		37.72		8.1901	19.9295
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	95.00				3.19		5.15	16.62		0.39	0.00	0.39	0.03	2.77			1.37		40.81		8.3012	20.1599
+MSM33_875-1	2013-11-29T18:14	36.09990	43.52990	98.75				2.80		3.73	12.01		0.28	0.00	0.34	0.03	2.43			1.40		44.24		8.3355	20.2431
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	10.75				0.59		99.79	287.81		6.46	0.00	0.46	0.05	0.08			0.03		1.48		13.9410	18.1789
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	105.50				2.30		2.40	7.70		0.19	0.00	0.31	0.03	1.96			1.42		47.15		8.4349	20.4989
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	108.50				1.75		1.37	4.38		0.11	0.00	0.34	0.03	1.38			1.53		50.51		8.4677	20.5976
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	112.00				0.56		0.20	0.64		0.03	0.00	0.27	0.07	0.22			0.19		54.75		8.4929	20.6768
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	119.50				1.97		0.19	0.59		0.03	0.00	1.89	0.02	0.06			5.10		60.46		8.5253	20.7898
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	129.00				5.23		0.00	0.00		0.00	8.99	5.21	0.03	0.00			6.90		65.96		8.5638	20.9419
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	138.50				8.03		0.00	0.00		0.00	16.49	8.02	0.01	0.00			5.78		71.30		8.5905	21.0475
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	154.00				10.28		0.00	0.00		0.00	21.98	10.27	0.01	0.00			4.27		69.20		8.6308	21.2121
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	171.75				14.85		0.00	0.00		0.00	30.47	14.83	0.02	0.00			4.63		85.52		8.6709	21.3370
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	194.50				18.80		0.00	0.00		0.00	40.97	18.78	0.02	0.00			4.77		95.38		8.7129	21.4616
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	227.25				23.29		0.00	0.00		0.00	56.45	23.27	0.02	0.00			4.65		108.42		8.7665	21.6116
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	274.50				29.75		0.00	0.00		0.00	81.76	29.72	0.02	0.00			5.03		125.58		8.8180	21.7482
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	349.50				39.11		0.00	0.00		0.00	118.21	39.08	0.03	0.00			5.30		153.07		8.8555	21.8892
+MSM33_875-1	2013-11-29T18:14	36.09990	43.53000	466.00				50.36		0.00	0.00		0.00	164.03	50.32	0.04	0.00			5.67		178.20		8.8845	22.0223
+MSM33_876-1	2013-11-29T20:53	36.09990	43.53000	126.50		0.01	-27.28		10.2			124.7						0.11	7		0.038		0.33	8.5561	20.9102
+MSM33_876-1	2013-11-29T20:53	36.09990	43.53000	14.25	0.62	0.72	-22.94		10.6			185.0						0.19	16		0.097		0.71	13.8780	18.1873
+MSM33_876-1	2013-11-29T20:53	36.09990	43.53000	2144.30					105.9			124.3							8		0.048		0.42	9.1260	22.3357
+MSM33_876-1	2013-11-29T20:53	36.09990	43.53000	72.00	0.01	0.03	-26.38		12.2			143.1						0.04	5		0.033		0.34	7.9362	19.3622
+MSM33_878-1	2013-11-30T06:40	36.09970	43.53000	2145.30			-26.76	101.18	105.7			120.6			100.79	0.39	0.00		10	8.37	0.057	322.78	0.37	9.1259	22.3356
+MSM33_878-1	2013-11-30T06:40	36.09977	43.52995	3.25	0.80	0.86	-22.47	0.70	10.3			189.7			0.54	0.09	0.06	0.13	15	0.04	0.094	1.60	0.58	13.7828	18.1746
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53000	114.00		0.01	-27.14	0.87	8.0			130.0			0.69	0.09	0.09	0.06	6	1.48	0.030	56.37	0.55	8.5015	20.7036
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53000	1550.50			-26.97	98.01	101.0			126.2			97.69	0.32	0.00		6	8.31	0.039	307.55	0.39	9.0434	22.3288
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53000	1800.00			-26.53	96.50	106.5			121.1			96.09	0.41	0.00		12	7.84	0.057	296.20	0.45	9.0842	22.3356
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53010	25.25	0.70	0.78	-23.23	0.70	10.3			190.2			0.55	0.07	0.07	0.15	13	0.03	0.089	1.13	0.50	13.7901	18.1757
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53010	300.00			-26.66	31.17	35.8			118.8			31.06	0.11	0.00		5	5.09	0.031	130.71	0.44	8.8290	21.7932
+MSM33_878-1	2013-11-30T06:40	36.09980	43.53010	97.00	0.01	0.02	-26.52	3.12	12.1			138.9			0.56	0.09	2.47	0.02	3	1.42	0.024	44.80	0.37	8.3741	20.3394
+MSM33_878-1	2013-11-30T06:40	36.09990	43.53010	66.00	0.01	0.03	-26.79	2.86	12.2			151.2			0.46	0.08	2.33	0.04	4	0.73	0.026	21.67	0.36	7.8082	19.0093
+MSM33_879-1	2013-11-30T10:01	36.09990	43.53000	110.00				1.49		0.71	2.27		0.07	0.00	0.48	0.09	0.92			0.76		53.45		8.4811	20.6347
+MSM33_879-1	2013-11-30T10:01	36.09990	43.53000	117.00				1.58		0.30	0.95		0.04	0.00	1.42	0.08	0.09			4.46		59.83		8.5319	20.8146
+MSM33_879-1	2013-11-30T10:01	36.09990	43.53000	131.25				5.83		0.00	0.00		0.00	6.00	5.78	0.05	0.00			6.75		67.83		8.5718	20.9675
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	101.75				2.80		3.14	10.10		0.24	0.00	0.62	0.09	2.08			1.46		47.20		8.3922	20.3786
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	103.50				2.40		2.69	8.64		0.21	0.00	0.51	0.08	1.80			1.48		48.30		8.4171	20.4510
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	105.50				2.21		2.40	7.69		0.19	0.00	0.53	0.08	1.60			1.55		49.51		8.4297	20.4823
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	108.25				1.99		1.84	5.88		0.15	0.00	0.48	0.07	1.44			1.50		50.57		8.4667	20.5951
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	113.00				0.80		0.18	0.56		0.03	0.00	0.64	0.08	0.09			0.78		55.73		8.5010	20.7000
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	119.50				2.50		0.18	0.59		0.03	0.00	2.41	0.09	0.00			5.95		61.59		8.5428	20.8533
+MSM33_879-1	2013-11-30T10:01	36.10000	43.53000	124.50				4.16		0.00	0.00		0.00	2.00	4.08	0.08	0.00			7.41		64.28		8.5528	20.8967
+MSM33_882-1	2013-11-30T13:32	36.09978	43.53008	4.25	0.75	0.86	-23.23	0.60	11.2			186.5			0.46	0.07	0.08	0.22	13	0.04	0.080	1.42	0.56	13.5490	18.0634
+MSM33_882-1	2013-11-30T13:32	36.09980	43.53000	120.00		0.01	-27.07	3.42	9.1			127.5			3.35	0.07	0.00	0.05	5	6.52	0.034	63.13	0.36	8.5412	20.8489
+MSM33_882-1	2013-11-30T13:32	36.09980	43.53000	68.25	0.01	0.02	-26.13	3.41	12.5			144.8			0.44	0.08	2.89	0.03	3	1.10	0.022	30.75	0.42	7.9180	19.2510
+MSM33_882-1	2013-11-30T13:32	36.09980	43.53010	2145.50				106.32	102.5			123.5			105.88	0.44	0.00		7	9.71	0.042	336.43	0.56	9.1260	22.3356
+MSM33_882-1	2013-11-30T13:32	36.09980	43.53010	28.25	0.60	0.71	-23.41	0.67	11.7			192.1			0.49	0.07	0.10	0.21	13	0.03	0.081	1.52	0.44	13.5809	18.0788
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	103.50				1.73							0.43	0.07	1.23			1.50		51.33		8.4539	20.5369
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	105.50				1.75							0.54	0.07	1.14			1.44		52.59		8.4686	20.5987
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	107.50				1.67							0.57	0.07	1.03			1.29		53.23		8.4721	20.6123
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	109.50				1.62							0.64	0.07	0.91			1.10		53.74		8.4845	20.6368
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	111.50				1.17							0.57	0.14	0.46			0.20		54.80		8.4974	20.6873
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	113.50				0.86							0.71	0.08	0.07			1.12		55.95		8.5060	20.7174
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	117.50				1.55							1.40	0.07	0.07			2.96		58.37		8.5213	20.7735
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	121.50				2.33							2.26	0.07	0.00			5.52		61.51		8.5412	20.8424
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	125.25				4.31							4.25	0.07	0.00			7.34		64.83		8.5568	20.9049
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	129.50				5.25							5.19	0.06	0.00			7.03		67.57		8.5698	20.9505
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	84.50				3.47							0.58	0.14	2.75			1.35		38.77		8.2280	19.9706
+MSM33_883-1	2013-11-30T16:42	36.09990	43.53000	89.50				3.34							0.47	0.08	2.79			1.39		41.02		8.3048	20.1305
+MSM33_883-1	2013-11-30T16:42	36.09995	43.53000	99.50				2.14							0.44	0.07	1.64			1.51		48.90		8.4308	20.4679

@@ -1,54 +1,82 @@
 ---
-title: "Section example"
-author: "David Kaiser"
-output: 
-  github_document
+title: "Section"
+author: "David"
+output: github_document
 ---
 
-Function to draw a section of interpolated data along a transect
-
- + requires vectors of corresponding lon, lat, depth, and data values
- + accepts the input of bathymetry data as class "bathy", or creates bathymetry
- + requires selection of distance, longitude or latitude as x values
- + requires selection of a dominant section orientation towards N, E, S or W
- + requires the following packages to be installed: "sp", "marmap", "reshape2", "MBA", and "ggplot2"
- + value is a list containing a ggplot of the sections with interpolated data and bathymetry profile and three data frames containing the interpolated data, the bathymetry profile, and the input data with section distance [km] added, respectively.
-  The list objects are named "plot", "output", "profile", and "input", respectively.
-
-```{r include=FALSE}
+```{r setup, include=FALSE}
 source("section_DK.R")
 ```
 
+### Description
 
-```{r, minimalExampleRun, message=FALSE, warning=FALSE}
-example.results <- section.DK(longitude = 15:20,
-                              latitude = 50:55,
-                              parameter = 13:18,
-                              depth = c(0, 100, 300, 500, 700, 1000))
+A function to draw an oceanographic section of interpolated data along a transect. Requires packages `sp`, `marmap`, `MBA`, `reshape2`, and `ggplot2`.
 
-# FIXME: Why do input vectors must have same lengths??
+### Arguments
 
+  *longitude* -- vector of latitude in degrees north
+  
+  *latitude* -- vector of longitude in degrees east
+  
+  *parameter* -- vector of values of parameter z to be interpolated and plotted as color; accepts NAs but all Lon-Lat-Depth-Parameter combinations with parameters NA will be removed
+  
+  *depth* -- vector of depth values in m, negative numbers are accepted but will be converted to positives
+  
+  *xy.ratio* = NULL -- optional integer vector of length 2 in which first and second integers indicate the relative strength of interpolation in x and y direction, defaults to NULL and calculates the required values according to mean depth resolution and distance between stations
+  
+  *section.x* = "km" -- unit for x axis of the section; options are "km" (the default), "degE", and "degN"
+  
+  *section.direction* = NA -- optional sorting of data by stations along a dominant direction. Options are "N", "E", "S", and "W", e.g. "S" creates a section running from north to south. If nothing is input, data vectors will not be resorted
+  
+  *bathymetry* = NULL -- optional bathymetry of class "bathy", if not supplied will be retrieved from NOAA for the domain of "longitude" and "latitude"
+  
+  *keep.bathy* = FALSE -- should the downloaded bathymetry be kept offline; this would make repeated plotting faster
+  
+  *max.depth* = "profile" -- select the section's maximum depth in bathymetry ("profile", the default) or in data ("data") as the maximum depth of the plot
+  
+  *contour.breaks* = 5 -- either an integer defining the number of contour bins (defaults arbitrarily to 5), or a vector of values for the contour lines. 
+
+### Value
+
+A named list containing the \$plot, the \$input data with the distance of stations along the section (according to sorting via *section.direction*), the \$output data of the interpolated results (as a long table), and the \$profile of bathymetry under the section.
+
+### Example
+
+The example data from the Black Sea is available for download [from PANGEA](https://doi.pangaea.de/10.1594/PANGAEA.898717). 
+Because the downloaded data is not sorted properly, the general cruise direction from west to east is indicated by *section.direction = "E"*.
+```{r example, message=FALSE}
+data <- read.table("Kaiser-etal_MSM33.tab", sep = "\t", skip = 99, header = TRUE)
+
+example <- section(longitude = data$Longitude,
+                   latitude = data$Latitude,
+                   parameter = data$Sal,
+                   depth = data$Depth.water..m.,
+                   section.direction = "E")
 ```
 
-# Output
+### Output
 
-## Plot
+#### Plot
 
-```{r, plot}
-example.results$plot
+```{r plot, warning=FALSE, message=FALSE}
+example$plot 
 ```
 
-## Tables
-
-```{r}
-head(example.results$input)
-
-head(example.results$output)
-
-head(example.results$profile)
+Because the \$plot is a ggplot2 object, it can be modified and extended.
+```{r plot_extra, warning=FALSE, message=FALSE}
+example$plot +
+  coord_cartesian(ylim=c(500,0)) +
+  metR::geom_label_contour(data = example$output,
+                           aes(section.x, depth, z = parameter)) +
+  scale_fill_gradientn(colours = c("black", "grey", "white"), name = "salinity")
 ```
 
+#### Tables
+The other objects in the results list are simple data frames.
+```{r tables}
+head(example$input)
 
-# ToDo:
+head(example$output)
 
- + labeled contour lines (not provided by ggplot geom_contour function, available workaround 'directlabels' does not help)
+head(example$profile)
+```

@@ -1,83 +1,136 @@
-Section example
+Section
 ================
-David Kaiser
+David
 
-Function to draw a section of interpolated data along a transect
+### Description
 
--   requires vectors of corresponding lon, lat, depth, and data values
--   accepts the input of bathymetry data as class "bathy", or creates bathymetry
--   requires selection of distance, longitude or latitude as x values
--   requires selection of a dominant section orientation towards N, E, S or W
--   requires the following packages to be installed: "sp", "marmap", "reshape2", "MBA", and "ggplot2"
--   value is a list containing a ggplot of the sections with interpolated data and bathymetry profile and three data frames containing the interpolated data, the bathymetry profile, and the input data with section distance \[km\] added, respectively. The list objects are named "plot", "output", "profile", and "input", respectively.
+A function to draw an oceanographic section of interpolated data along a
+transect. Requires packages `sp`, `marmap`, `MBA`, `reshape2`, and
+`ggplot2`.
+
+### Arguments
+
+*longitude* – vector of latitude in degrees north
+
+*latitude* – vector of longitude in degrees east
+
+*parameter* – vector of values of parameter z to be interpolated and
+plotted as color; accepts NAs but all Lon-Lat-Depth-Parameter
+combinations with parameters NA will be removed
+
+*depth* – vector of depth values in m, negative numbers are accepted but
+will be converted to positives
+
+*xy.ratio* = NULL – optional integer vector of length 2 in which first
+and second integers indicate the relative strength of interpolation in x
+and y direction, defaults to NULL and calculates the required values
+according to mean depth resolution and distance between stations
+
+*section.x* = “km” – unit for x axis of the section; options are “km”
+(the default), “degE”, and “degN”
+
+*section.direction* = NA – optional sorting of data by stations along a
+dominant direction. Options are “N”, “E”, “S”, and “W”, e.g. “S” creates
+a section running from north to south. If nothing is input, data vectors
+will not be resorted
+
+*bathymetry* = NULL – optional bathymetry of class “bathy”, if not
+supplied will be retrieved from NOAA for the domain of “longitude” and
+“latitude”
+
+*keep.bathy* = FALSE – should the downloaded bathymetry be kept offline;
+this would make repeated plotting faster
+
+*max.depth* = “profile” – select the section’s maximum depth in
+bathymetry (“profile”, the default) or in data (“data”) as the maximum
+depth of the plot
+
+*contour.breaks* = 5 – either an integer defining the number of contour
+bins (defaults arbitrarily to 5), or a vector of values for the contour
+lines.
+
+### Value
+
+A named list containing the $plot, the $input data with the distance of
+stations along the section (according to sorting via
+*section.direction*), the $output data of the interpolated results (as a
+long table), and the $profile of bathymetry under the section.
+
+### Example
+
+The example data from the Black Sea is available for download [from
+PANGEA](https://doi.pangaea.de/10.1594/PANGAEA.898717). Because the
+downloaded data is not sorted properly, the general cruise direction
+from west to east is indicated by *section.direction = “E”*.
 
 ``` r
-example.results <- section.DK(longitude = 15:20,
-                              latitude = 50:55,
-                              parameter = 13:18,
-                              depth = c(0, 100, 300, 500, 700, 1000))
+data <- read.table("Kaiser-etal_MSM33.tab", sep = "\t", skip = 99, header = TRUE)
+
+example <- section(longitude = data$Longitude,
+                   latitude = data$Latitude,
+                   parameter = data$Sal,
+                   depth = data$Depth.water..m.,
+                   section.direction = "E")
 ```
 
-    ## Querying NOAA database ...
-    ## This may take seconds to minutes, depending on grid size
-    ## Building bathy matrix ...
+### Output
+
+#### Plot
 
 ``` r
-# FIXME: Why do input vectors must have same lengths??
+example$plot 
 ```
 
-Output
-======
+![](README_files/figure-gfm/plot-1.png)<!-- -->
 
-Plot
-----
+Because the $plot is a ggplot2 object, it can be modified and extended.
 
 ``` r
-example.results$plot
+example$plot +
+  coord_cartesian(ylim=c(500,0)) +
+  metR::geom_label_contour(data = example$output,
+                           aes(section.x, depth, z = parameter)) +
+  scale_fill_gradientn(colours = c("black", "grey", "white"), name = "salinity")
 ```
 
-![](README_files/figure-markdown_github/plot-1.png)
+![](README_files/figure-gfm/plot_extra-1.png)<!-- -->
 
-Tables
-------
+#### Tables
+
+The other objects in the results list are simple data frames.
 
 ``` r
-head(example.results$input)
+head(example$input)
 ```
 
-    ##   longitude latitude parameter depth section.x
-    ## 1        15       50        13     0    0.0000
-    ## 2        16       51        14   100  131.9366
-    ## 3        17       52        15   300  263.0662
-    ## 4        18       53        16   500  393.3712
-    ## 5        19       54        17   700  522.8337
-    ## 6        20       55        18  1000  651.4356
+    ##   longitude latitude parameter depth  section.x
+    ## 1   31.1403 45.02997   17.2305   1.5 0.00000000
+    ## 2   31.1403 45.03010   17.2497  10.0 0.01444735
+    ## 3   31.1403 45.03010   17.4900  20.0 0.01444735
+    ## 4   31.1403 45.03010   17.8401  30.0 0.01444735
+    ## 5   31.1403 45.03020   17.8487  32.5 0.02556070
+    ## 6   31.1403 45.03020   18.2096  40.0 0.02556070
 
 ``` r
-head(example.results$output)
+head(example$output)
 ```
 
     ##   section.x depth parameter
-    ## 1  0.000000     0  13.00000
-    ## 2  2.178714     0  13.00568
-    ## 3  4.357429     0  13.01185
-    ## 4  6.536143     0  13.01849
-    ## 5  8.714858     0  13.02558
-    ## 6 10.893572     0  13.03311
+    ## 1  0.000000   1.5  17.20472
+    ## 2  2.116863   1.5  17.23667
+    ## 3  4.233726   1.5  17.30980
+    ## 4  6.350589   1.5  17.39558
+    ## 5  8.467452   1.5  17.48017
+    ## 6 10.584315   1.5  17.55927
 
 ``` r
-head(example.results$profile)
+head(example$profile)
 ```
 
-    ##        lon      lat section.x depth
-    ## 2 14.99167 49.99167  0.000000   278
-    ## 3 15.00833 50.00833  2.203088   263
-    ## 4 15.02500 50.02500  4.405952   258
-    ## 5 15.04167 50.04167  6.608594   243
-    ## 6 15.05833 50.05833  8.811011   244
-    ## 7 15.07500 50.07500 11.013205   214
-
-ToDo:
-=====
-
--   labeled contour lines (not provided by ggplot geom\_contour function, available workaround 'directlabels' does not help)
+    ##         lon      lat section.x depth
+    ## 2  31.13370 45.02793  0.000000    31
+    ## 6  31.14943 45.01117  2.236433    25
+    ## 7  31.16516 44.99441  4.473066    28
+    ## 8  31.18089 44.97765  6.709898    33
+    ## 9  31.19662 44.96089  8.946931    29
+    ## 10 31.21235 44.94413 11.184163    22
