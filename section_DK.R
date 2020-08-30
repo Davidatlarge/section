@@ -11,7 +11,7 @@
 #### in preparation:
 # label contour lines
 
-section.DK <- function(
+section <- function(
   longitude, # vector of latitude in degrees north
   latitude, # vector of longitude in degrees east
   parameter, # vector of values of parameter z to be plotted as color. accepts NAs but all Lon-Lat-Depth-Parameter combinations with parameters NA will be removed
@@ -38,25 +38,29 @@ section.DK <- function(
   data$depth <- abs(data$depth)
   data <- subset(data, !is.na(data$parameter))
   
-  stations <- data.frame(longitude, latitude)
-  stations <- unique(stations)
-  
   #### calculate section distance in the specified direction
+  stations <- unique(data.frame(longitude, latitude))
   switch(section.direction, # evaluates which direction was supplied and returns the matching named element (like so many if() functions)
          "N" = stations <- stations[order(stations$latitude, decreasing = FALSE),], # sorts stations south to north
          "S" = stations <- stations[order(stations$latitude, decreasing = TRUE),], # sorts stations north to south
          "W" = stations <- stations[order(stations$longitude, decreasing = TRUE),], # sorts stations east to west
          "E" = stations <- stations[order(stations$longitude, decreasing = FALSE),] # sorts stations west to east
   )
-  stations$section.dist.km <- spDistsN1(as.matrix(stations), as.numeric(stations[1,]), longlat = TRUE) # calculates distance in km from northernmost station
+  # because sp::spDistsN1() calculates distance to a reference point, stepwise calculation is done in a for() loop
+  dist <- 0
+  for(i in 1:(nrow(stations)-1)) {
+    dist <- append(dist, spDistsN1(as.matrix(stations[i+1,]), as.numeric(stations[i,]), longlat = TRUE))
+  }
+  stations$section.dist.km <- cumsum(dist)
+  
   data <- merge(data, stations, by = c("longitude","latitude"))
   
   #### construct section bathymetry profile if not supplied by user
   if(is.null(bathymetry)) {
-    bathymetry <- getNOAA.bathy(lon1 = min(stations$longitude)-1,
-                                lon2 = max(stations$longitude)+1,
-                                lat1 = min(stations$latitude)-1,
-                                lat2 = max(stations$latitude)+1, 
+    bathymetry <- getNOAA.bathy(lon1 = floor(min(stations$longitude)),
+                                lon2 = ceiling(max(stations$longitude)),
+                                lat1 = floor(min(stations$latitude)),
+                                lat2 = ceiling(max(stations$latitude)), 
                                 resolution = 1, keep = FALSE)
   }
   
@@ -155,6 +159,7 @@ section.DK <- function(
          "degE" = p1 <- p1 + xlab("longitude [°E]"),
          "degN" = p1 <- p1 + xlab("latidutde [°N]")
          )
+  
   return(setNames(list(p1, df.int, profile, data), 
                   c("plot", "output", "profile", "input")))
   
