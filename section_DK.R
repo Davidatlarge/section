@@ -20,6 +20,7 @@ section <- function(
   section.x = "km", # unit for x axis of the section. Options are "km" (the default), "degE", and "degN".
   section.direction = NA, # optional sorting of data by stations along a dominant direction. Options are "N", "E", "S", and "W", e.g. "S" creates a section running from north to south. Only really important if section.x = "km". If nothing is input, data vectors will not be resorted
   bathymetry = NULL, # optional bathymetry of class "bathy", if not supplied will be retrieved from NOAA for the domain of "longitude" and "latitude"
+  keep.bathy = FALSE, # should the downloaded bathymetry be keept offline; this would make repeated plotting faster
   max.depth = "profile", # select the section's maximum depth in bathymetry ("profile", the default) or in data ("data") as the maximum depth of the plot
   contour.breaks = 5 # either an integer defining the number of contour bins (defaults arbitrarily to 5), or a vector of values for the contour lines. To draw no contours "0" works but prints an error, NA does not work, NULL reverts to geom_stat default.
 )
@@ -61,7 +62,7 @@ section <- function(
                                 lon2 = ceiling(max(stations$longitude)),
                                 lat1 = floor(min(stations$latitude)),
                                 lat2 = ceiling(max(stations$latitude)), 
-                                resolution = 1, keep = FALSE)
+                                resolution = 1, keep = keep.bathy)
   }
   
   #### extract a bathymetry profile for the section
