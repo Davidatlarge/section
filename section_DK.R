@@ -121,7 +121,7 @@ section <- function(
   #### calculate contour breaks if only one number is supplied
   if(length(contour.breaks)==1){
     contour.breaks <- seq(min(df.int$parameter, na.rm = TRUE), 
-                          max(df.int$parameter, na.rm = TRUE), length.out = contour.breaks)
+                          max(df.int$parameter, na.rm = TRUE), length.out = contour.breaks+2)
   }
   
   #### set max depth
