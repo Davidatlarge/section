@@ -20,15 +20,11 @@ section <- function(
   section.x = "km", # unit for x axis of the section. Options are "km" (the default), "degE", and "degN".
   section.direction = NA, # optional sorting of data by stations along a dominant direction. Options are "N", "E", "S", and "W", e.g. "S" creates a section running from north to south. Only really important if section.x = "km". If nothing is input, data vectors will not be resorted
   bathymetry = NULL, # optional bathymetry of class "bathy", if not supplied will be retrieved from NOAA for the domain of "longitude" and "latitude"
-  keep.bathy = FALSE, # should the downloaded bathymetry be keept offline; this would make repeated plotting faster
+  keep.bathy = FALSE, # should the downloaded bathymetry be kept offline; this would make repeated plotting faster
   max.depth = "profile", # select the section's maximum depth in bathymetry ("profile", the default) or in data ("data") as the maximum depth of the plot
   contour.breaks = 5 # either an integer defining the number of contour bins (defaults arbitrarily to 5), or a vector of values for the contour lines. To draw no contours "0" works but prints an error, NA does not work, NULL reverts to geom_stat default.
 )
 {
-  library(sp)
-  library(marmap)
-  library(reshape2)
-  library(MBA)
   library(ggplot2)
   
   #### data prep
@@ -50,7 +46,7 @@ section <- function(
   # because sp::spDistsN1() calculates distance to a reference point, stepwise calculation is done in a for() loop
   dist <- 0
   for(i in 1:(nrow(stations)-1)) {
-    dist <- append(dist, spDistsN1(as.matrix(stations[i+1,]), as.numeric(stations[i,]), longlat = TRUE))
+    dist <- append(dist, sp::spDistsN1(as.matrix(stations[i+1,]), as.numeric(stations[i,]), longlat = TRUE))
   }
   stations$section.dist.km <- cumsum(dist)
   
@@ -58,7 +54,7 @@ section <- function(
   
   #### construct section bathymetry profile if not supplied by user
   if(is.null(bathymetry)) {
-    bathymetry <- getNOAA.bathy(lon1 = floor(min(stations$longitude)),
+    bathymetry <- marmap::getNOAA.bathy(lon1 = floor(min(stations$longitude)),
                                 lon2 = ceiling(max(stations$longitude)),
                                 lat1 = floor(min(stations$latitude)),
                                 lat2 = ceiling(max(stations$latitude)), 
@@ -66,7 +62,7 @@ section <- function(
   }
   
   #### extract a bathymetry profile for the section
-  profile <- path.profile(subset(stations, select = c(longitude, latitude)), bathymetry)
+  profile <- marmap::path.profile(subset(stations, select = c(longitude, latitude)), bathymetry)
   profile$depth <- abs(profile$depth) # make the depth values positive
   
   #### defining values for interpolation strength in x and y directions
@@ -110,14 +106,14 @@ section <- function(
   
   #### interpolate data
   data <- data[order(data$section.x),] # orders rows by section.x 
-  mba <- mba.surf(data[,c("section.x", "depth", "parameter")],  # xyz, where z is the parameter to be interpolated between x and y
+  mba <- MBA::mba.surf(data[,c("section.x", "depth", "parameter")],  # xyz, where z is the parameter to be interpolated between x and y
                   no.X = 300, # x-resolution = number of points created over entire x, not per unit x
                   no.Y = 300, # same as for x
                   n = n, 
                   m = m, 
                   extend = TRUE)
   dimnames(mba$xyz.est$z) <- list(mba$xyz.est$x, mba$xyz.est$y)
-  df.int <- melt(mba$xyz.est$z, varnames = c("section.x", "depth"), value.name = "parameter")
+  df.int <- reshape2::melt(mba$xyz.est$z, varnames = c("section.x", "depth"), value.name = "parameter")
   
   #### calculate contour breaks if only one number is supplied
   if(length(contour.breaks)==1){
